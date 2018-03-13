@@ -35,7 +35,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/knoema/data-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/knoema/search-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
