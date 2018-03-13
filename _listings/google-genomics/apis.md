@@ -27,7 +27,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-genomics/v1-datasets-datasetid-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
 x-common:
 - type: x-documentation
   url: https://cloud.google.com/genomics/overview
