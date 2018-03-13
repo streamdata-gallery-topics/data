@@ -32,7 +32,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-charts(-lt;name-gt;)-datalabels-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-databodyrange-post.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
