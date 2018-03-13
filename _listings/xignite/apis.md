@@ -49,7 +49,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/xignite/getlatesttopicdata-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/xignite/getannualizedtopicdata-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
