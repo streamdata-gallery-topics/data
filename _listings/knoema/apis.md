@@ -20,8 +20,8 @@ tags:
 - Finance
 - Enterprise
 - Data
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/knoema/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -35,7 +35,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/knoema/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/knoema/meta-dataset-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
