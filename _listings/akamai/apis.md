@@ -33,7 +33,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/akamai/events-v2-accountid-events-eventid-trafficdata-srip-sourcebandwidth-slotid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/akamai/lds-v1-dictionaries-dictionaryname-validation-data-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
