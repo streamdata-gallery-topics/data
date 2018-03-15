@@ -16,8 +16,8 @@ tags:
 - Google APIs
 - Content
 - Commerce
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-content-api-for-shopping/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-content-api-for-shopping/merchantid-datafeedstatuses-datafeedid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-content-api-for-shopping/datafeeds-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
