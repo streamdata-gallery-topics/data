@@ -18,8 +18,8 @@ tags:
 - Stack Network
 - Google APIs
 - Database
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-cloud-spanner/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-cloud-spanner/v1-parent-databases-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-cloud-spanner/v1-database-delete.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
