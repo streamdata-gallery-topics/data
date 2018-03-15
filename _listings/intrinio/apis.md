@@ -30,7 +30,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/intrinio/securities-institutional-ownership-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/intrinio/data-point-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
