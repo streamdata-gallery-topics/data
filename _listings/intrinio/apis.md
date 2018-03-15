@@ -30,7 +30,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/intrinio/tags-banks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/intrinio/stock-exchanges-corporate-actions-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
