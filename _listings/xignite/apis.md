@@ -36,9 +36,9 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/xignite/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Xignite Statistics
@@ -49,7 +49,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/xignite/getannualizedtopicdata-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xignite/gettopicdata-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
