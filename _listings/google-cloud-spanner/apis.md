@@ -32,7 +32,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-ddl-get.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
