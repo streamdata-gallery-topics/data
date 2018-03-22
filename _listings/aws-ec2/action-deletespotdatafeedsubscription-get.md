@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSpotDatafeedSubscription&k=1:
+  /?Action=DeleteSpotDatafeedSubscription:
     get:
       summary: Delete Spot Datafeed Subscription
       description: Deletes the data feed for Spot instances
