@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Google APIs
 - Fitness
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-fit/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Fit API
@@ -28,7 +28,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-fit/userid-dataset-aggregate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
