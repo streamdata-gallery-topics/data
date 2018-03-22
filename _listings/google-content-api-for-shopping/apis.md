@@ -29,7 +29,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeeds-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeedstatuses-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
