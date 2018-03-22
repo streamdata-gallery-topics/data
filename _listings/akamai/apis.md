@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/akamai/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/akamai/config-gtm-v1-domains-domain-datacenters-datacenterid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/events-v2-accountid-events-eventid-trafficdata-hdsll-egressrequests-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
