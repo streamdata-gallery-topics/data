@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTelemetryMetadata&k=1:
+  /?Action=GetTelemetryMetadata:
     get:
       summary: ' Get Telemetry Metadata '
       description: |-
