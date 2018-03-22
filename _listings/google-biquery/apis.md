@@ -29,7 +29,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-delete.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
