@@ -12,9 +12,9 @@ tags:
 - Search
 - Links
 - Google APIs
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-search-console/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Search Console API
@@ -27,7 +27,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-search-console/sites-siteurl-searchanalytics-query-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/sites-siteurl-searchanalytics-query-post.md
 x-common:
 - type: x-blog
   url: https://support.google.com/webmasters/go/blog
