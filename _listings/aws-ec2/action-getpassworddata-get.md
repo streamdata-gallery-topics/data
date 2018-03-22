@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPasswordData&k=1:
+  /?Action=GetPasswordData:
     get:
       summary: Get Password Data
       description: Retrieves the encrypted administrator password for an instance
