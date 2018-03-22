@@ -26,7 +26,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
