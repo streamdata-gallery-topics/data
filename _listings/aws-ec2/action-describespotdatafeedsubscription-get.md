@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSpotDatafeedSubscription&k=1:
+  /?Action=DescribeSpotDatafeedSubscription:
     get:
       summary: Describe Spot Datafeed Subscription
       description: Describes the data feed for Spot instances
