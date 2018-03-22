@@ -27,7 +27,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-glacier/accountid-policies-data-retrieval-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-glacier/accountid-policies-data-retrieval-put.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
