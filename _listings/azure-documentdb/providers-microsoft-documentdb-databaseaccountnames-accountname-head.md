@@ -27,7 +27,7 @@ paths:
       tags:
       - database
       - accounts
-      - check
+      - checks
       - name
       - exists
 definitions:
