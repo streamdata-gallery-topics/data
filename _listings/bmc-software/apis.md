@@ -10,9 +10,9 @@ tags:
 - Monitoring
 - Devops
 - Applications
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/bmc-software/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bmc-software/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
