@@ -32,7 +32,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/,-data,-labels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/datalabels-patch.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
