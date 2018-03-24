@@ -34,7 +34,8 @@ paths:
       - event
       - trafficdata
       - hdsll
-      - egressbw
+      - egress
+      - aggregation
 definitions: []
 x-collection-name: Akamai
 x-streamrank:
