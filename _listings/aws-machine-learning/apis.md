@@ -36,7 +36,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-machine-learning/action-getdatasource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-machine-learning/action-updatedatasource-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
