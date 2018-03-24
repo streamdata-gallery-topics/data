@@ -28,7 +28,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-badges-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
