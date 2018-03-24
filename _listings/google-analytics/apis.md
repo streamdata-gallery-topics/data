@@ -12,8 +12,8 @@ tags:
 - Google APIs
 - Analytics
 - Analysis
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-ga-get.md
 x-common:
 - type: x-blog
   url: https://analytics.googleblog.com/
