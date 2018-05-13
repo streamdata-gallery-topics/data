@@ -1,8 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: Genomics
-  description: Upload, process, query, and search Genomics data in the cloud.
+  title: Google Genomics API Restore Dataset
+  description: |-
+    Undeletes a dataset by restoring a dataset which was deleted via this API.
+
+    For the definitions of datasets and other genomics resources, see
+    [Fundamentals of Google
+    Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+
+    This operation is only possible for a week after the deletion occurred.
   contact:
     name: Google
     url: https://google.com
