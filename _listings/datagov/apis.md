@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/site-home-datasets-put.md
-- name: Data.gov API Get Datasets
-  description: List or search all datasets
+- name: Data.gov API Add Datasets
+  description: Create a new dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
