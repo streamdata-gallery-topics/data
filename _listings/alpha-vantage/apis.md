@@ -30,8 +30,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/alpha-vantage/query-function-sector-get.md
-- name: Alpha Vantage Relative Strength Index (RSI)
-  description: This API returns the relative strength index (RSI) values.
+- name: Alpha Vantage Sector Performance
+  description: This API returns the realtime and historical sector performances calculated
+    from S&P500 incumbents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2018-01-22 at 4.52.35 PM.png
   humanURL: https://www.alphavantage.co
@@ -39,32 +40,8 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/alpha-vantage/query-function-rsi-get.md
-- name: Alpha Vantage Balance Volume (OBV)
-  description: This API returns the on balance volume (OBV) values.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co//
-  tags: Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/alpha-vantage/query-function-obv-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/alpha-vantage/query-function-sector-get.md
 x-common:
-- type: x-command-line-interface
-  url: https://www.npmjs.com/package/alpha-vantage-cli
-- type: x-documentation
-  url: https://www.alphavantage.co/documentation/
-- type: x-forum
-  url: https://www.alpha-vantage.community/
-- type: x-selfservice-registration
-  url: https://www.alphavantage.co/support/#api-key
-- type: x-support
-  url: https://www.alphavantage.co/support/#support
-- type: x-terms-of-service
-  url: https://www.alphavantage.co/terms_of_service/
-- type: x-website
-  url: https://www.alphavantage.co
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
 - type: x-documentation
