@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Catalog Get External Data Source
+  description: Retrieves the specified external data source from the Data Lake Analytics
+    catalog.
   version: 1.0.0
 basePath: /
 schemes:
