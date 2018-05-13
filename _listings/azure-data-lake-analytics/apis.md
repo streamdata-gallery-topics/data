@@ -36,8 +36,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/jobs-jobidentity-getdebugdatapath-get.md
-- name: Azure Data Lake Analytics API Data Lake Store Accounts Delete
-  description: Updates the Data Lake Analytics account specified to remove the specified
+- name: Azure Data Lake Analytics API Data Lake Store Accounts Add
+  description: Updates the specified Data Lake Analytics account to include the additional
     Data Lake Store account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
@@ -45,9 +45,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
