@@ -36,19 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/jobs-jobidentity-getdebugdatapath-get.md
-- name: Azure Data Lake Analytics API Data Lake Store Accounts List By Account
-  description: Gets the first page of Data Lake Store accounts linked to the specified
-    Data Lake Analytics account. The response includes a link to the next page, if
-    any.
+- name: Azure Data Lake Analytics API Catalog Get External Data Source
+  description: Retrieves the specified external data source from the Data Lake Analytics
+    catalog.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
   baseURL: http:://{host}//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-externaldatasourcename-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-externaldatasourcename-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
