@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DocumentDB
-  description: Azure DocumentDB Database Service Resource Provider REST API
+  title: Azure DocumentDB API Database Accounts Regenerate Key
+  description: Regenerates an access key for the specified Azure DocumentDB database
+    account.
   version: 1.0.0
 host: management.azure.com
 basePath: /
