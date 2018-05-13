@@ -1,8 +1,18 @@
 ---
 swagger: "2.0"
 info:
-  title: Genomics
-  description: Upload, process, query, and search Genomics data in the cloud.
+  title: Google Genomics API Delete Dataset
+  description: |-
+    Deletes a dataset and all of its contents (all read group sets,
+    reference sets, variant sets, call sets, annotation sets, etc.)
+    This is reversible (up to one week after the deletion) via
+    the
+    datasets.undelete
+    operation.
+
+    For the definitions of datasets and other genomics resources, see
+    [Fundamentals of Google
+    Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
   contact:
     name: Google
     url: https://google.com
