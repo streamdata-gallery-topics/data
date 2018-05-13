@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DocumentDB
-  description: Azure DocumentDB Database Service Resource Provider REST API
+  title: Azure DocumentDB API Database Accounts List
+  description: Lists all the Azure DocumentDB database accounts available under the
+    subscription.
   version: 1.0.0
 host: management.azure.com
 basePath: /
