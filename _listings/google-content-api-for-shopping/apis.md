@@ -30,15 +30,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantid-datafeedstatuses-datafeedid-get.md
-- name: Google Content API for Shopping API Data Feeds
-  description: Retrieves data feed batches.
+- name: Google Content API for Shopping API Data Feed Status
+  description: Retrieves data feed batch status.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeeds-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeedstatuses-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
