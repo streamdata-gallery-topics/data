@@ -33,14 +33,14 @@ apis:
   description: |-
     Updates the specified data source. The dataStreamId, dataType, type, dataStreamName, and device properties with the exception of version, cannot be modified.
 
-    Data sources are identified by their dataStreamId. This method supports patch semantics.
+    Data sources are identified by their dataStreamId.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
   humanURL: https://developers.google.com/fit/overview
   baseURL: http:://www.googleapis.com//fitness/v1/users
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-put.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
