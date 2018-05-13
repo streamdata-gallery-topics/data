@@ -29,17 +29,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-patch.md
-- name: Google Fit API Get Data Source
-  description: Returns the specified data source.
+- name: Google Fit API Update Data Source
+  description: |-
+    Updates the specified data source. The dataStreamId, dataType, type, dataStreamName, and device properties with the exception of version, cannot be modified.
+
+    Data sources are identified by their dataStreamId. This method supports patch semantics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
   humanURL: https://developers.google.com/fit/overview
   baseURL: http:://www.googleapis.com//fitness/v1/users
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-patch.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
