@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Delete Dataset
+  description: Deletes the dataset specified by the datasetId value. Before you can
+    delete a dataset, you must delete all its tables, either manually or by specifying
+    deleteContents. Immediately after deletion, you can create another dataset with
+    the same name.
   contact:
     name: Google
     url: https://google.com
