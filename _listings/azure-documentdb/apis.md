@@ -27,16 +27,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head.md
-- name: Azure DocumentDB API Database Accounts Regenerate Key
-  description: Regenerates an access key for the specified Azure DocumentDB database
-    account.
+- name: Azure DocumentDB API Database Accounts Check Name Exists
+  description: Checks that the Azure DocumentDB account name already exists. A valid
+    account name may contain only lowercase letters, numbers, and the '-' character,
+    and must be between 3 and 50 characters.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: http:://management.azure.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-regeneratekey-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
