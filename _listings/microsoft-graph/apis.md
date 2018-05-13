@@ -33,18 +33,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-databodyrange-post.md
-- name: Microsoft Graph API Table Data Body Range
-  description: 'Table: DataBodyRange Gets the range object associated with the data
-    body of the table.'
+- name: Microsoft Graph API Table Column Data Body Range
+  description: 'TableColumn: DataBodyRange Gets the range object associated with the
+    data body of the column.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-databodyrange-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-databodyrange-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-databodyrange-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-databodyrange-post-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
