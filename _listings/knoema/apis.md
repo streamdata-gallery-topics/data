@@ -36,15 +36,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/search-get.md
-- name: Knoema API Dataset details
-  description: Lists out details of a particular dataset.
+- name: Knoema API Dimension
+  description: Lists out the given dataset's dimension details.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
   humanURL: https://knoema.com
   baseURL: http://knoema.com//api/1.0
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/meta-dataset-dataset-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/meta-dataset-datasetid-dimension-dimensionid-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
