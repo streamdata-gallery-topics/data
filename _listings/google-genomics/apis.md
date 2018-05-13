@@ -28,7 +28,35 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
+- name: Google Genomics API Get Datasets
+  description: |-
+    Lists datasets within a project.
+
+    For the definitions of datasets and other genomics resources, see
+    [Fundamentals of Google
+    Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/power-your-science.png
+  humanURL: https://cloud.google.com/genomics/
+  baseURL: http:://genomics.googleapis.com//
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://cloud.google.com/genomics/overview
+- type: x-forum
+  url: https://groups.google.com/forum/#!forum/google-genomics-discuss/join
+- type: x-pricing
+  url: https://cloud.google.com/genomics/pricing
+- type: x-rate-limits
+  url: https://cloud.google.com/genomics/quotas
+- type: x-support
+  url: https://cloud.google.com/genomics/support
+- type: x-website
+  url: https://cloud.google.com/genomics/
 - type: x-documentation
   url: https://cloud.google.com/genomics/overview
 - type: x-forum
