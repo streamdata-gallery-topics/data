@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post.md
-- name: Google Analytics Return Real Time Data
-  description: Returns real time data for a view (profile).
+- name: Google Analytics Get Custom Data
+  description: List custom data sources to which the user has access.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
   humanURL: https://www.google.com/analytics/#?modal_active=none
   baseURL: https://www.googleapis.com//analytics/v3
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-realtime-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-realtime-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-get-postman.md
 x-common:
 - type: x-blog
   url: https://analytics.googleblog.com/
