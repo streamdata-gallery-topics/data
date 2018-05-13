@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Get Datasets
+  description: Lists all datasets in the specified project to which you have been
+    granted the READER dataset role.
   contact:
     name: Google
     url: https://google.com
