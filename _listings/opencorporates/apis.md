@@ -28,15 +28,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenCorporates Companies  Jurisdiction Code  Company Number Data
-  description: nThis returns the data held for the given company
+- name: OpenCorporates Data  ID
+  description: nThis returns information on a given datum
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
   humanURL: https://opencorporates.com/
   baseURL: http:://api.opencorporates.com/v0.4/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/companies-jurisdiction-code-company-number-data-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/data-id-get.md
 x-common:
 - type: x-base
   url: https://api.opencorporates.com/
