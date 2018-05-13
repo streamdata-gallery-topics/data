@@ -31,15 +31,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/executives-roles-get.md
-- name: Intrinio API Sector News Sentiments
-  description: Returns daily summaries of news sentiments by sector and date.
+- name: Intrinio API Bloggers
+  description: Returns a list of bloggers. TipRanks bloggers are anonymized, but you
+    will be able to reference them with the provided id field.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/news-sector-sentiments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/bloggers-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
