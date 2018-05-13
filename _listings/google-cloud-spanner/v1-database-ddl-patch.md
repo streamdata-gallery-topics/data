@@ -1,9 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud Spanner
-  description: Cloud Spanner is a managed, mission-critical, globally consistent and
-    scalable relational database service.
+  title: Google Cloud Spanner API Update Database Schema
+  description: |-
+    Updates the schema of a Cloud Spanner database by
+    creating/altering/dropping tables, columns, indexes, etc. The returned
+    long-running operation will have a name of
+    the format `<database_name>/operations/<operation_id>` and can be used to
+    track execution of the schema change(s). The
+    metadata field type is
+    UpdateDatabaseDdlMetadata.  The operation has no response.
   contact:
     name: Google
     url: https://google.com
