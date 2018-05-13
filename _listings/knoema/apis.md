@@ -36,15 +36,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/search-get.md
-- name: Knoema API Get data
-  description: This endpoint returns observation data for the given filter.
+- name: Knoema API Search by keyword
+  description: This namespace provides search details for data accessible by that
+    user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
   humanURL: https://knoema.com
   baseURL: http://knoema.com//api/1.0
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/data-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/search-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
