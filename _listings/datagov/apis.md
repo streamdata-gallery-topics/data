@@ -29,41 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/site-home-datasets-put.md
-- name: Data.gov API Add Datasets Dataset Badges
-  description: Create a new badge for a given dataset
+- name: Data.gov API Add Datasets Dataset Resources
+  description: Create a new resource for a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-badges-post.md
-- name: Data.gov API Get Datasets Dataset Full
-  description: Get a dataset given its identifier
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
-  humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3/
-  tags: Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-full-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-full-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-resources-post.md
 x-common:
-- type: x-blog
-  url: https://www.data.gov/meta/
-- type: x-blog-rss
-  url: https://www.data.gov/feed/
-- type: x-developer
-  url: http://developer.data.gov/
-- type: x-signup
-  url: https://api.data.gov/signup/
-- type: x-twitter
-  url: https://twitter.com/usdatagov
-- type: x-website
-  url: http://data.gov/
-- type: x-wikipedia
-  url: http://en.wikipedia.org/wiki/Data.gov
 - type: x-blog
   url: https://www.data.gov/meta/
 - type: x-blog-rss
