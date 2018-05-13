@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud Spanner
-  description: Cloud Spanner is a managed, mission-critical, globally consistent and
-    scalable relational database service.
+  title: Google Cloud Spanner API Get Databases
+  description: Lists Cloud Spanner databases.
   contact:
     name: Google
     url: https://google.com
