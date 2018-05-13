@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Validation Context
+  description: Get Validation Context
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Get Validation Context
       operationId: ldsv1dictionariesdictionarynamevalidationdata
       parameters:
-      - in: Enumeration
+      - in: query
         name: dictionaryName
         description: Dictionary name value
         type: string
