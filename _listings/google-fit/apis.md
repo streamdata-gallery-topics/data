@@ -29,18 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-patch.md
-- name: Google Fit API Delete Data Source
-  description: Deletes the specified data source. The request will fail if the data
-    source contains any data points.
+- name: Google Fit API Get Data Source
+  description: Returns the specified data source.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
   humanURL: https://developers.google.com/fit/overview
   baseURL: http:://www.googleapis.com//fitness/v1/users
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
