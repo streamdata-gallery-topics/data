@@ -24,15 +24,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-export-post.md
-- name: Azure Redis Cache API Redis Import Data
-  description: Import data into Redis cache.
+- name: Azure Redis Cache API Redis Export Data
+  description: Export data from the redis cache to blobs in a container.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
   humanURL: https://azure.microsoft.com/en-us/services/cache/
   baseURL: http:://management.azure.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-import-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-export-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
