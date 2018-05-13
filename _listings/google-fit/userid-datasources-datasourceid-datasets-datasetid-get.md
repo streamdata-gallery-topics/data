@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Get All Data Source Datasets
+  description: Returns a dataset containing all data points whose start and end times
+    overlap with the specified range of the dataset minimum start time and maximum
+    end time. Specifically, any data point whose start time is less than or equal
+    to the dataset end time and whose end time is greater than or equal to the dataset
+    start time.
   contact:
     name: Google
     url: https://google.com
