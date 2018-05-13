@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Analytics
-  description: Views and manages your Google Analytics data.
+  title: Google Analytics Delete Data
+  description: Delete data associated with a previous upload.
   contact:
     name: Google
     url: https://google.com
