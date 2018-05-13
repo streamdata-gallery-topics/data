@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/box/folders-folder-id-metadata-scope-template-delete.md
-- name: Box Update Metadata Template
-  description: Used to update the schema of an existing template.
+- name: Box Get all Metadata on File
+  description: Used to retrieve all metadata associated with a given file
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/box/metadata-templates-scope-template-schema-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/box/files-file-id-metadata-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/box/files-file-id-metadata-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
