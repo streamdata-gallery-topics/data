@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Job Get Debug Data Path
+  description: Gets the job debug data information specified by the job ID.
   version: 1.0.0
 basePath: /
 schemes:
