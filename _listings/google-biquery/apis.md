@@ -30,18 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-insertall-post.md
-- name: Google BigQuery API Get Table
-  description: Retrieves table data from a specified set of rows. Requires the READER
-    dataset role.
+- name: Google BigQuery API Insert Data
+  description: Streams data into BigQuery one record at a time without needing to
+    run a load job. Requires the WRITER dataset role.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
   humanURL: https://cloud.google.com/bigquery/
   baseURL: http:://www.googleapis.com//bigquery/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-data-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-data-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-insertall-post.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
