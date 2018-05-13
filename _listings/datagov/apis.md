@@ -38,15 +38,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-badges-post.md
-- name: Data.gov API Add Reuses Reuse Datasets
-  description: Add a dataset to a given reuse
+- name: Data.gov API Get Site Home Datasets
+  description: List homepage datasets
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/reuses-reuse-datasets-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/site-home-datasets-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/site-home-datasets-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
