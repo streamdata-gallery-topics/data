@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: IEX
-  description: The IEX API is a set of services designed for developers and engineers.
-    It can be used to build high-quality apps and services. We&rsquo;re always working
-    to improve the IEX API. Please check back for enhancements and improvements.
+  title: IEX Trading API Earnings
+  description: Pulls data from the four most recent reported quarters.
   termsOfService: https://iextrading.com/api-terms/
   version: 1.0.0
 host: api.iextrading.com
@@ -36,16 +34,16 @@ paths:
 definitions: []
 x-collection-name: IEX
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
