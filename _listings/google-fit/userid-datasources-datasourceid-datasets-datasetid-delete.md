@@ -1,9 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Delete All Data Source Datasets
+  description: Performs an inclusive delete of all data points whose start and end
+    times have any overlap with the time range specified by the dataset ID. For most
+    data types, the entire data point will be deleted. For data types where the time
+    span represents a consistent value (such as com.google.activity.segment), and
+    a data point straddles either end point of the dataset, only the overlapping portion
+    of the data point will be deleted.
   contact:
     name: Google
     url: https://google.com
