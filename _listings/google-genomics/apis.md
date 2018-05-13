@@ -28,22 +28,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
-- name: Google Genomics API Update Dataset
+- name: Google Genomics API Restore Dataset
   description: |-
-    Updates a dataset.
+    Undeletes a dataset by restoring a dataset which was deleted via this API.
 
     For the definitions of datasets and other genomics resources, see
     [Fundamentals of Google
     Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
 
-    This method supports patch semantics.
+    This operation is only possible for a week after the deletion occurred.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/power-your-science.png
   humanURL: https://cloud.google.com/genomics/
   baseURL: http:://genomics.googleapis.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
 x-common:
 - type: x-documentation
   url: https://cloud.google.com/genomics/overview
