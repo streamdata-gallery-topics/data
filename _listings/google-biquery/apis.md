@@ -30,17 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-insertall-post.md
-- name: Google BigQuery API Update Dataset
-  description: Updates information in an existing dataset. The update method replaces
-    the entire dataset resource, whereas the patch method only replaces fields that
-    are provided in the submitted dataset resource.
+- name: Google BigQuery API Get Table
+  description: Retrieves table data from a specified set of rows. Requires the READER
+    dataset role.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
   humanURL: https://cloud.google.com/bigquery/
   baseURL: http:://www.googleapis.com//bigquery/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-data-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-data-get-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
