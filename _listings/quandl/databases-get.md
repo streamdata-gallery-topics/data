@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Quandl
-  description: The Quandl API
+  title: Quandl API Get Databases
+  description: 'You can search for specific databases on Quandl by making the following
+    API request.  The API will return databases related to your query. Databases are
+    returned 100 results at a time. You can page through the results using these parameters:'
   version: 1.0.0
 host: www.quandl.com
 basePath: /api/v3
@@ -38,16 +40,16 @@ paths:
 definitions: []
 x-collection-name: Quandl
 x-streamrank:
-  polling_total_time_average: ~
-  polling_size_download_average: ~
-  streaming_total_time_average: ~
-  streaming_size_download_average: ~
-  change_yes: ~
-  change_no: ~
-  time_percentage: ~
-  size_percentage: ~
-  change_percentage: ~
-  last_run: ~
-  days_run: ~
-  minute_run: ~
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
