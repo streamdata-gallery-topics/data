@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Get Password Data
   version: 1.0.0
+  description: Retrieves the encrypted administrator password for an instance running
+    Windows.
 schemes:
 - http
 produces:
