@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Insert Data
+  description: Streams data into BigQuery one record at a time without needing to
+    run a load job. Requires the WRITER dataset role.
   contact:
     name: Google
     url: https://google.com
