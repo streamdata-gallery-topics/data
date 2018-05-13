@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Search Console
-  description: View Google Search Console data for your verified sites.
+  title: Google Search Console API Query Data
+  description: |-
+    Query your data with filters and parameters that you define. Returns zero or more rows grouped by the row keys that you define. You must define a date range of one or more days.
+
+    When date is one of the group by values, any days without data are omitted from the result list. If you need to know which days have data, issue a broad date range query grouped by date for any metric, and see which day rows are returned.
   contact:
     name: Google
     url: https://google.com
