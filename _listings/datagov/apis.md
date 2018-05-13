@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/site-home-datasets-put.md
-- name: Data.gov API Add Datasets Dataset Resources
-  description: Create a new resource for a given dataset
+- name: Data.gov API Put Datasets Dataset Resources
+  description: Reorder resources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-resources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-resources-put.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
