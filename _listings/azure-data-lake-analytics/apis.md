@@ -36,8 +36,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/jobs-jobidentity-getdebugdatapath-get.md
-- name: Azure Data Lake Analytics API Catalog Get External Data Source
-  description: Retrieves the specified external data source from the Data Lake Analytics
+- name: Azure Data Lake Analytics API Catalog List External Data Sources
+  description: Retrieves the list of external data sources from the Data Lake Analytics
     catalog.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
@@ -45,9 +45,9 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-externaldatasourcename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-externaldatasourcename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-externaldatasources-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
