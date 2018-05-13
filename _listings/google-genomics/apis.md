@@ -28,14 +28,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
-- name: Google Genomics API Delete Dataset
+- name: Google Genomics API Get Dataset
   description: |-
-    Deletes a dataset and all of its contents (all read group sets,
-    reference sets, variant sets, call sets, annotation sets, etc.)
-    This is reversible (up to one week after the deletion) via
-    the
-    datasets.undelete
-    operation.
+    Gets a dataset by ID.
 
     For the definitions of datasets and other genomics resources, see
     [Fundamentals of Google
@@ -46,9 +41,9 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-get-postman.md
 x-common:
 - type: x-documentation
   url: https://cloud.google.com/genomics/overview
