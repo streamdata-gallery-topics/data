@@ -38,17 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-badges-post.md
-- name: Data.gov API Get Organizations Org Datasets
-  description: List organization datasets (including private ones when member)
+- name: Data.gov API Add Reuses Reuse Datasets
+  description: Add a dataset to a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/organizations-org-datasets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/organizations-org-datasets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/reuses-reuse-datasets-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
