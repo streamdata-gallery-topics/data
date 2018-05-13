@@ -34,16 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/action-describespotdatafeedsubscription-get.md
-- name: AWS EC2 API Get Password Data
-  description: Retrieves the encrypted administrator password for an instance running
-    Windows.
+- name: AWS EC2 API Delete Spot Datafeed Subscription
+  description: Deletes the data feed for Spot instances.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/action-getpassworddata-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/action-deletespotdatafeedsubscription-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
