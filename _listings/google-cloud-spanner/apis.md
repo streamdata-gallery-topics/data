@@ -33,7 +33,46 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-post.md
+- name: Google Cloud Spanner API Delete Database
+  description: Drops (aka deletes) a Cloud Spanner database.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: http:://spanner.googleapis.com//
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-delete-postman.md
 x-common:
+- type: x-change-log
+  url: https://cloud.google.com/spanner/docs/release-notes
+- type: x-code
+  url: https://cloud.google.com/spanner/docs/reference/libraries
+- type: x-command-line-interfaces
+  url: https://cloud.google.com/spanner/docs/gcloud-spanner
+- type: x-concepts
+  url: https://cloud.google.com/spanner/docs/concepts
+- type: x-documentation
+  url: https://cloud.google.com/spanner/docs/
+- type: x-getting-started
+  url: https://cloud.google.com/spanner/docs/quickstart-console
+- type: x-guide
+  url: https://cloud.google.com/spanner/docs/how-to
+- type: x-pricing
+  url: https://cloud.google.com/spanner/pricing
+- type: x-rate-limits
+  url: https://cloud.google.com/spanner/docs/limits
+- type: x-schema
+  url: https://cloud.google.com/spanner/docs/information-schema
+- type: x-service-level-agreements
+  url: https://cloud.google.com/spanner/sla
+- type: x-support
+  url: https://cloud.google.com/spanner/docs/support
+- type: x-website
+  url: https://cloud.google.com/spanner/
+- type: x-white-papers
+  url: https://cloud.google.com/spanner/docs/whitepapers
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
 - type: x-code
