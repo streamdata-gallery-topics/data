@@ -33,17 +33,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-databodyrange-post.md
-- name: Microsoft Graph API Chart Set Data
-  description: 'Chart: setData Resets the source data for the chart.'
+- name: Microsoft Graph API Get Chart Data Labels
+  description: Get ChartDataLabels Retrieve the properties and relationships of chartdatalabels
+    object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/,-set,-data-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/,-data,-labels-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/,-set,-data-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/,-data,-labels-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
