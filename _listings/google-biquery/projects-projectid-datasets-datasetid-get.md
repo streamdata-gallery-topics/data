@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Get Dataset
+  description: Returns the dataset specified by datasetID.
   contact:
     name: Google
     url: https://google.com
