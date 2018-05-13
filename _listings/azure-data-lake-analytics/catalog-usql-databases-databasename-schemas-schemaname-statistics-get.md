@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Catalog List Table Statistics By Database And
+    Schema
+  description: Retrieves the list of all table statistics within the specified schema
+    from the Data Lake Analytics catalog.
   version: 1.0.0
 basePath: /
 schemes:
