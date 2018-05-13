@@ -33,20 +33,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-post.md
-- name: Google Cloud Spanner API Get Database Schema
+- name: Google Cloud Spanner API Update Database Schema
   description: |-
-    Returns the schema of a Cloud Spanner database as a list of formatted
-    DDL statements. This method does not show pending schema updates, those may
-    be queried using the Operations API.
+    Updates the schema of a Cloud Spanner database by
+    creating/altering/dropping tables, columns, indexes, etc. The returned
+    long-running operation will have a name of
+    the format `<database_name>/operations/<operation_id>` and can be used to
+    track execution of the schema change(s). The
+    metadata field type is
+    UpdateDatabaseDdlMetadata.  The operation has no response.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
   humanURL: https://cloud.google.com/spanner/
   baseURL: http:://spanner.googleapis.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-ddl-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-ddl-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-database-ddl-patch.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
