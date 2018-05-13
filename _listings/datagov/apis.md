@@ -38,17 +38,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-badges-post.md
-- name: Data.gov API Add Datasets Dataset Featured
-  description: Mark the dataset as featured
+- name: Data.gov API Get Datasets Dataset Full
+  description: Get a dataset given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-featured-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-full-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-featured-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datagov/datasets-dataset-full-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
