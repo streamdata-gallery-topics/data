@@ -30,18 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantid-datafeedstatuses-datafeedid-get.md
-- name: Google Content API for Shopping API Get Data Feed
-  description: Retrieves a datafeed from your Merchant Center account. This method
-    can only be called for non-multi-client accounts.
+- name: Google Content API for Shopping API Update Data Feed
+  description: Updates a datafeed of your Merchant Center account. This method can
+    only be called for non-multi-client accounts. This method supports patch semantics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-datafeedid-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-datafeedid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-datafeedid-patch.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
