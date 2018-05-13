@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get SRIP Bandwidth per Slot
-  description: Get SRIP Bandwidth per Slot
+- name: Akamai API Get Validation Context
+  description: Get Validation Context
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/events-v2-accountid-events-eventid-trafficdata-srip-sourcebandwidth-slotid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/lds-v1-dictionaries-dictionaryname-validation-data-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
