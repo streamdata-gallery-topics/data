@@ -48,7 +48,29 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-tablevaluedfunctions-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-tablevaluedfunctions-get-postman.md
+- name: Azure Data Lake Analytics API Catalog List Views By Database
+  description: Retrieves the list of all views in a database from the Data Lake Analytics
+    catalog.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: http:://{host}//
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-views-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-views-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/data-lake-analytics/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/data-lake-analytics/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/data-lake-analytics/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
 - type: x-pricing
