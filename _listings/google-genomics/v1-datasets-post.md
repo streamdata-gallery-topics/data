@@ -1,8 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Genomics
-  description: Upload, process, query, and search Genomics data in the cloud.
+  title: Google Genomics API Create Dataset
+  description: |-
+    Creates a new dataset.
+
+    For the definitions of datasets and other genomics resources, see
+    [Fundamentals of Google
+    Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
   contact:
     name: Google
     url: https://google.com
