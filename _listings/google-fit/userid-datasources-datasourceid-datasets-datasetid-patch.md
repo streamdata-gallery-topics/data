@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Add Data Point To Data Source Datasets
+  description: Adds data points to a dataset. The dataset need not be previously created.
+    All points within the given dataset will be returned with subsquent calls to retrieve
+    this dataset. Data points can belong to more than one dataset. This method does
+    not use patch semantics.
   contact:
     name: Google
     url: https://google.com
