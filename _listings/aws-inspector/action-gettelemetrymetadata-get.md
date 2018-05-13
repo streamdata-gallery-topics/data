@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Get Telemetry Metadata
   version: 1.0.0
+  description: |-
+    Information about the data that is collected for the specified assessment
+             run.
 schemes:
 - http
 produces:
