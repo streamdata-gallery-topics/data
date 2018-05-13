@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get a Data Store
+  description: Get a Data Store
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Get a Data Store
       operationId: securitymonitorv1reportpacksreportpackiddatastoresdatastoreid
       parameters:
-      - in: Number
+      - in: query
         name: dataStoreId
         description: Data store ID
         type: string
-      - in: Number
+      - in: query
         name: reportPackId
         description: Report pack ID
         type: string
