@@ -28,9 +28,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-datasetid-undelete-post.md
-- name: Google Genomics API Get Datasets
+- name: Google Genomics API Create Dataset
   description: |-
-    Lists datasets within a project.
+    Creates a new dataset.
 
     For the definitions of datasets and other genomics resources, see
     [Fundamentals of Google
@@ -41,9 +41,7 @@ apis:
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-genomics/v1-datasets-post.md
 x-common:
 - type: x-documentation
   url: https://cloud.google.com/genomics/overview
