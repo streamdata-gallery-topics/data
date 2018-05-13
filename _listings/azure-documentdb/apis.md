@@ -27,18 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head.md
-- name: Azure DocumentDB API Database Accounts List
+- name: Azure DocumentDB API Database Accounts List By Resource Group
   description: Lists all the Azure DocumentDB database accounts available under the
-    subscription.
+    given resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: http:://management.azure.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-providers-microsoft-documentdb-databaseaccounts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-providers-microsoft-documentdb-databaseaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
