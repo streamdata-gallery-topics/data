@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Data Lake Store Accounts Delete
+  description: Updates the Data Lake Analytics account specified to remove the specified
+    Data Lake Store account.
   version: 1.0.0
 basePath: /
 schemes:
