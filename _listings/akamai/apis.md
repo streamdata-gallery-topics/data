@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/security-monitor-v1-report-packs-reportpackid-data-sources-get.md
-- name: Akamai API List Data Centers
-  description: List Data Centers
+- name: Akamai API Create a Data Center
+  description: Create a Data Center
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/config-gtm-v1-domains-domain-datacenters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/config-gtm-v1-domains-domain-datacenters-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
