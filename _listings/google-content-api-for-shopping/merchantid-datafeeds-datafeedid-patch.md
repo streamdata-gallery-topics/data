@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Content API for Shopping
-  description: Manages product items, inventory, and Merchant Center accounts for
-    Google Shopping.
+  title: Google Content API for Shopping API Update Data Feed
+  description: Updates a datafeed of your Merchant Center account. This method can
+    only be called for non-multi-client accounts. This method supports patch semantics.
   contact:
     name: Google
     url: https://google.com
