@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Update Dataset
+  description: Updates information in an existing dataset. The update method replaces
+    the entire dataset resource, whereas the patch method only replaces fields that
+    are provided in the submitted dataset resource. This method supports patch semantics.
   contact:
     name: Google
     url: https://google.com
