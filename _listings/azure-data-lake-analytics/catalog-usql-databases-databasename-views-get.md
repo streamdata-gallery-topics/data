@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Catalog List Views By Database
+  description: Retrieves the list of all views in a database from the Data Lake Analytics
+    catalog.
   version: 1.0.0
 basePath: /
 schemes:
