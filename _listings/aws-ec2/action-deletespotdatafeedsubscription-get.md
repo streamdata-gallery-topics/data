@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Delete Spot Datafeed Subscription
   version: 1.0.0
+  description: Deletes the data feed for Spot instances.
 schemes:
 - http
 produces:
