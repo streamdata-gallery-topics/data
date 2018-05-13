@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Analytics
-  description: Views and manages your Google Analytics data.
+  title: Google Analytics Return Real Time Data
+  description: Returns real time data for a view (profile).
   contact:
     name: Google
     url: https://google.com
