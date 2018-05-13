@@ -27,18 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head.md
-- name: Azure DocumentDB API Database Accounts Failover Priority Change
-  description: Changes the failover priority for the Azure DocumentDB database account.
-    A failover priority of 0 indicates a write region. The maximum value for a failover
-    priority = (total number of regions - 1). Failover priority values must be unique
-    for each of the regions in which the database account exists.
+- name: Azure DocumentDB API Database Accounts List
+  description: Lists all the Azure DocumentDB database accounts available under the
+    subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: http:://management.azure.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-failoverprioritychange-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-providers-microsoft-documentdb-databaseaccounts-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-providers-microsoft-documentdb-databaseaccounts-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
