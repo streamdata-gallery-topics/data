@@ -48,18 +48,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-tablevaluedfunctions-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-tablevaluedfunctions-get-postman.md
-- name: Azure Data Lake Analytics API Catalog List Views By Database
-  description: Retrieves the list of all views in a database from the Data Lake Analytics
-    catalog.
+- name: Azure Data Lake Analytics API Catalog Get Database
+  description: Retrieves the specified database from the Data Lake Analytics catalog.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
   baseURL: http:://{host}//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-views-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-views-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
