@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: RedisManagementClient
-  description: REST API for Azure Redis Cache Service.
+  title: Azure Redis Cache API Redis Export Data
+  description: Export data from the redis cache to blobs in a container.
   version: 1.0.0
 host: management.azure.com
 basePath: /
