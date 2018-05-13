@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Get Table
+  description: Retrieves table data from a specified set of rows. Requires the READER
+    dataset role.
   contact:
     name: Google
     url: https://google.com
