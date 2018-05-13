@@ -30,7 +30,41 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-insertall-post.md
+- name: Google BigQuery API Get Datasets
+  description: Lists all datasets in the specified project to which you have been
+    granted the READER dataset role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
+  humanURL: https://cloud.google.com/bigquery/
+  baseURL: http:://www.googleapis.com//bigquery/v2
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-get-postman.md
 x-common:
+- type: x-code
+  url: https://cloud.google.com/bigquery/docs/reference/libraries
+- type: x-documentation
+  url: https://cloud.google.com/bigquery/docs/
+- type: x-getting-started
+  url: https://cloud.google.com/bigquery/docs/quickstarts
+- type: x-how-to-guides
+  url: https://cloud.google.com/bigquery/docs/how-to
+- type: x-partners
+  url: https://cloud.google.com/bigquery/partners/
+- type: x-pricing
+  url: https://cloud.google.com/bigquery/pricing
+- type: x-quotas
+  url: https://cloud.google.com/bigquery/quota-policy
+- type: x-service-level-agreement
+  url: https://cloud.google.com/bigquery/sla
+- type: x-support
+  url: https://cloud.google.com/bigquery/support
+- type: x-tutorials
+  url: https://cloud.google.com/bigquery/docs/tutorials
+- type: x-website
+  url: https://cloud.google.com/bigquery/
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
 - type: x-documentation
