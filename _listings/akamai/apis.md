@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Data Store
-  description: Get a Data Store
+- name: Akamai API List Data Sources
+  description: List Data Sources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/security-monitor-v1-report-packs-reportpackid-data-stores-datastoreid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/akamai/security-monitor-v1-report-packs-reportpackid-data-sources-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
