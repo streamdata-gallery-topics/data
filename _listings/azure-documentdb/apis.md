@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/providers-microsoft-documentdb-databaseaccountnames-accountname-head.md
-- name: Azure DocumentDB API Database Accounts Create Or Update
-  description: Creates or updates an Azure DocumentDB database account.
+- name: Azure DocumentDB API Database Accounts Delete
+  description: Deletes an existing Azure DocumentDB database account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: http:://management.azure.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
