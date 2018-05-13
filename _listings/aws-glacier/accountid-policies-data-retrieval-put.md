@@ -1,8 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Set  Data  Retrieval  Policy
   version: 1.0.0
+  description: "DescriptionThis operation sets and then enacts a data retrieval policy
+    in the region specified in the PUT request. You can set one\n\t\t\tpolicy per
+    region for an AWS account. The policy is enacted within a few minutes of a\n\t\t\tsuccessful
+    PUT operation.  The set policy operation does not affect retrieval jobs that were
+    in progress before the policy was\n\t\t\tenacted. For more information about data
+    retrieval policies, see Amazon Glacier Data Retrieval Policies. Requests"
 schemes:
 - http
 produces:
