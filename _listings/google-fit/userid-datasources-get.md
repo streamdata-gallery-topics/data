@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Get Data Sources
+  description: Lists all data sources that are visible to the developer, using the
+    OAuth scopes provided. The list is not exhaustive; the user may have private data
+    sources that are only visible to other developers, or calls using other scopes.
   contact:
     name: Google
     url: https://google.com
