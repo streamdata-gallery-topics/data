@@ -28,7 +28,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/sites-siteurl-searchanalytics-query-post.md
+- name: Google Search Console API Query Data
+  description: |-
+    Query your data with filters and parameters that you define. Returns zero or more rows grouped by the row keys that you define. You must define a date range of one or more days.
+
+    When date is one of the group by values, any days without data are omitted from the result list. If you need to know which days have data, issue a broad date range query grouped by date for any metric, and see which day rows are returned.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: http:://www.googleapis.com//webmasters/v3
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/sites-siteurl-searchanalytics-query-post.md
 x-common:
+- type: x-blog
+  url: https://support.google.com/webmasters/go/blog
+- type: x-blog-rss
+  url: https://webmasters.googleblog.com/feeds/posts/default?alt=rss
+- type: x-forum
+  url: https://productforums.google.com/forum/#!forum/webmasters
+- type: x-website
+  url: https://developers.google.com/webmaster-tools/
 - type: x-blog
   url: https://support.google.com/webmasters/go/blog
 - type: x-blog-rss
