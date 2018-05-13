@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud Spanner
-  description: Cloud Spanner is a managed, mission-critical, globally consistent and
-    scalable relational database service.
+  title: Google Cloud Spanner API Get Database Schema
+  description: |-
+    Returns the schema of a Cloud Spanner database as a list of formatted
+    DDL statements. This method does not show pending schema updates, those may
+    be queried using the Operations API.
   contact:
     name: Google
     url: https://google.com
