@@ -29,7 +29,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-patch.md
+- name: Google Fit API Get Data Sources
+  description: Lists all data sources that are visible to the developer, using the
+    OAuth scopes provided. The list is not exhaustive; the user may have private data
+    sources that are only visible to other developers, or calls using other scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
+  humanURL: https://developers.google.com/fit/overview
+  baseURL: http:://www.googleapis.com//fitness/v1/users
+  tags: Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://developers.google.com/fit/android/get-api-key
+- type: x-getting-started
+  url: https://developers.google.com/fit/rest/v1/get-started
+- type: x-website
+  url: https://developers.google.com/fit/overview
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
 - type: x-getting-started
