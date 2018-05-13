@@ -28,15 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post.md
-- name: Google Analytics Delete Data
-  description: Delete data associated with a previous upload.
+- name: Google Analytics Upload Data
+  description: Upload data for a custom data source.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
   humanURL: https://www.google.com/analytics/#?modal_active=none
   baseURL: https://www.googleapis.com//analytics/v3
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-deleteuploaddata-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post-postman.md
 x-common:
 - type: x-blog
   url: https://analytics.googleblog.com/
