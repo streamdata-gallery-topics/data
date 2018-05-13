@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: BigQuery
-  description: A data platform for customers to create, manage, share and query data.
+  title: Google BigQuery API Create Dataset
+  description: Creates a new empty dataset.
   contact:
     name: Google
     url: https://google.com
