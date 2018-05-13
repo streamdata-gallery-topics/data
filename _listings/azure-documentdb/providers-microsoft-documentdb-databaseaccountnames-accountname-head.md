@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: DocumentDB
-  description: Azure DocumentDB Database Service Resource Provider REST API
+  title: Azure DocumentDB API Database Accounts Check Name Exists
+  description: Checks that the Azure DocumentDB account name already exists. A valid
+    account name may contain only lowercase letters, numbers, and the '-' character,
+    and must be between 3 and 50 characters.
   version: 1.0.0
 host: management.azure.com
 basePath: /
