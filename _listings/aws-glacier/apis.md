@@ -28,19 +28,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-glacier/accountid-policies-data-retrieval-put.md
-- name: Amazon Glacier API Get  Data  Retrieval  Policy
-  description: "DescriptionThis operation returns the current data retrieval policy
-    for the account and region specified in the\n\t\t\t\tGET request. For more information
-    about data retrieval policies, see\n\t\t\tAmazon Glacier Data Retrieval Policies.RequestsTo
-    return the current data retrieval policy, send an HTTP GET request to the data
-    retrieval\n\t\t\tpolicy URI as shown in the following syntax example."
+- name: Amazon Glacier API Set  Data  Retrieval  Policy
+  description: "DescriptionThis operation sets and then enacts a data retrieval policy
+    in the region specified in the PUT request. You can set one\n\t\t\tpolicy per
+    region for an AWS account. The policy is enacted within a few minutes of a\n\t\t\tsuccessful
+    PUT operation.  The set policy operation does not affect retrieval jobs that were
+    in progress before the policy was\n\t\t\tenacted. For more information about data
+    retrieval policies, see Amazon Glacier Data Retrieval Policies. Requests"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
   humanURL: https://aws.amazon.com/glacier/
   baseURL: http:://{host}//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-glacier/accountid-policies-data-retrieval-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-glacier/accountid-policies-data-retrieval-put.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
