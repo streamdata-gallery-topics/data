@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Update Data Source
+  description: |-
+    Updates the specified data source. The dataStreamId, dataType, type, dataStreamName, and device properties with the exception of version, cannot be modified.
+
+    Data sources are identified by their dataStreamId. This method supports patch semantics.
   contact:
     name: Google
     url: https://google.com
