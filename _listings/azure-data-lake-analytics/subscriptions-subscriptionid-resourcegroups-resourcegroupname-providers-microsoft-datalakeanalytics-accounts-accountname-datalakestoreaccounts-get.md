@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Data Lake Store Accounts List By Account
+  description: Gets the first page of Data Lake Store accounts linked to the specified
+    Data Lake Analytics account. The response includes a link to the next page, if
+    any.
   version: 1.0.0
 basePath: /
 schemes:
