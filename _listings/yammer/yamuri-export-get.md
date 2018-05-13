@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Get Export Of Data
+  description: Exports data from Network
   version: 1.0.0
 host: example.com
 basePath: /
