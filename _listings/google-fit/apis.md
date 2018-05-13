@@ -29,22 +29,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-patch.md
-- name: Google Fit API Delete All Data Source Datasets
-  description: Performs an inclusive delete of all data points whose start and end
-    times have any overlap with the time range specified by the dataset ID. For most
-    data types, the entire data point will be deleted. For data types where the time
-    span represents a consistent value (such as com.google.activity.segment), and
-    a data point straddles either end point of the dataset, only the overlapping portion
-    of the data point will be deleted.
+- name: Google Fit API Get All Data Source Datasets
+  description: Returns a dataset containing all data points whose start and end times
+    overlap with the specified range of the dataset minimum start time and maximum
+    end time. Specifically, any data point whose start time is less than or equal
+    to the dataset end time and whose end time is greater than or equal to the dataset
+    start time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
   humanURL: https://developers.google.com/fit/overview
   baseURL: http:://www.googleapis.com//fitness/v1/users
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fit/userid-datasources-datasourceid-datasets-datasetid-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
