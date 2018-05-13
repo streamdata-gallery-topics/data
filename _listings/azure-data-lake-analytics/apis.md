@@ -36,18 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/jobs-jobidentity-getdebugdatapath-get.md
-- name: Azure Data Lake Analytics API Data Lake Store Accounts Get
-  description: Gets the specified Data Lake Store account details in the specified
-    Data Lake Analytics account.
+- name: Azure Data Lake Analytics API Data Lake Store Accounts Delete
+  description: Updates the Data Lake Analytics account specified to remove the specified
+    Data Lake Store account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
   baseURL: http:://{host}//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-datalakestoreaccounts-datalakestoreaccountname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
