@@ -33,14 +33,14 @@ apis:
 - name: Google BigQuery API Update Dataset
   description: Updates information in an existing dataset. The update method replaces
     the entire dataset resource, whereas the patch method only replaces fields that
-    are provided in the submitted dataset resource. This method supports patch semantics.
+    are provided in the submitted dataset resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
   humanURL: https://cloud.google.com/bigquery/
   baseURL: http:://www.googleapis.com//bigquery/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-put.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
