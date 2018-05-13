@@ -1,13 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Capital One DevExchange
-  description: Nessie is Capital One&rsquo;s Hackathon API that gives you access to
-    a multitude of real public-facing data - such as ATM and bank branch locations
-    - along with mock customer account data. Use HTTP requests to set up peer-to-peer
-    transactions, simulate a weekly paycheck, or even schedule bills for customers!
-    This is all structured in a way that resembles how we actually run things here
-    at Capital One.
+  title: Capital One DevExchange Delete data associated with your API key.
+  description: This endpoint deletes any data associated with your API key and of
+    the type passed in as query parameters.  If you do not specify any type to delete,
+    no data will be deleted.
   version: 1.0.0
 host: api.reimaginebanking.com
 basePath: /
