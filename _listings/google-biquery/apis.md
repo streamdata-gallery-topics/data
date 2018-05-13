@@ -30,18 +30,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-datasetid-tables-tableid-insertall-post.md
-- name: Google BigQuery API Get Datasets
-  description: Lists all datasets in the specified project to which you have been
-    granted the READER dataset role.
+- name: Google BigQuery API Create Dataset
+  description: Creates a new empty dataset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
   humanURL: https://cloud.google.com/bigquery/
   baseURL: http:://www.googleapis.com//bigquery/v2
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/projects-projectid-datasets-post.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/bigquery/docs/reference/libraries
