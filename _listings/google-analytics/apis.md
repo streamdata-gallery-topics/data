@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/management-accounts-accountid-webproperties-webpropertyid-customdatasources-customdatasourceid-uploads-post.md
-- name: Google Analytics Return Analytics Data
-  description: Returns Analytics data for a view (profile).
+- name: Google Analytics Returns Analytics Multi-Channel Funnels Data
+  description: Returns Analytics Multi-Channel Funnels data for a view (profile).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
   humanURL: https://www.google.com/analytics/#?modal_active=none
   baseURL: https://www.googleapis.com//analytics/v3
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-ga-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-mcf-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-ga-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/data-mcf-get-postman.md
 x-common:
 - type: x-blog
   url: https://analytics.googleblog.com/
