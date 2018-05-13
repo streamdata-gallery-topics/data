@@ -33,17 +33,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-post.md
-- name: Google Cloud Spanner API Get Databases
-  description: Lists Cloud Spanner databases.
+- name: Google Cloud Spanner API Create Database
+  description: |-
+    Creates a new Cloud Spanner database and starts to prepare it for serving.
+    The returned long-running operation will
+    have a name of the format `<database_name>/operations/<operation_id>` and
+    can be used to track preparation of the database. The
+    metadata field type is
+    CreateDatabaseMetadata. The
+    response field type is
+    Database, if successful.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
   humanURL: https://cloud.google.com/spanner/
   baseURL: http:://spanner.googleapis.com//
   tags: Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-spanner/v1-parent-databases-post.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
