@@ -1,9 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud Spanner
-  description: Cloud Spanner is a managed, mission-critical, globally consistent and
-    scalable relational database service.
+  title: Google Cloud Spanner API Create Database
+  description: |-
+    Creates a new Cloud Spanner database and starts to prepare it for serving.
+    The returned long-running operation will
+    have a name of the format `<database_name>/operations/<operation_id>` and
+    can be used to track preparation of the database. The
+    metadata field type is
+    CreateDatabaseMetadata. The
+    response field type is
+    Database, if successful.
   contact:
     name: Google
     url: https://google.com
