@@ -1,0 +1,142 @@
+---
+swagger: "2.0"
+x-collection-name: AWS Cognito
+x-complete: 0
+info:
+  title: AWS Cognito API Subscribe To Dataset
+  version: 1.0.0
+  description: Subscribes to receive notifications when a dataset is modified by another
+    device.
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=DeleteDataset:
+    get:
+      summary: Delete Dataset
+      description: Deletes the specific dataset.
+      operationId: deleteDataset
+      x-api-path-slug: actiondeletedataset-get
+      parameters:
+      - in: query
+        name: DatasetName
+        description: A string of up to 128 characters
+        type: string
+      - in: query
+        name: IdentityId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)       created
+          by Amazon Cognito
+        type: string
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)       created
+          by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+  /?Action=DescribeDataset:
+    get:
+      summary: Describe Dataset
+      description: Gets meta data about a dataset by identity and dataset name.
+      operationId: describeDataset
+      x-api-path-slug: actiondescribedataset-get
+      parameters:
+      - in: query
+        name: DatasetName
+        description: A string of up to 128 characters
+        type: string
+      - in: query
+        name: IdentityId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)       created
+          by Amazon Cognito
+        type: string
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)       created
+          by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+  /?Action=ListDatasets:
+    get:
+      summary: List Datasets
+      description: Lists datasets for an identity.
+      operationId: listDatasets
+      x-api-path-slug: actionlistdatasets-get
+      parameters:
+      - in: query
+        name: IdentityId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      - in: query
+        name: MaxResults
+        description: The maximum number of results to be returned
+        type: string
+      - in: query
+        name: NextToken
+        description: A pagination token for obtaining the next page of results
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+  /?Action=SubscribeToDataset:
+    get:
+      summary: Subscribe To Dataset
+      description: Subscribes to receive notifications when a dataset is modified
+        by another device.
+      operationId: subscribeToDataset
+      x-api-path-slug: actionsubscribetodataset-get
+      parameters:
+      - in: query
+        name: DatasetName
+        description: The name of the dataset to subcribe to
+        type: string
+      - in: query
+        name: DeviceId
+        description: The unique ID generated for this device by Cognito
+        type: string
+      - in: query
+        name: IdentityId
+        description: Unique ID for this identity
+        type: string
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
