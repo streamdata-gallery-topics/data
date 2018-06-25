@@ -4,7 +4,7 @@ description: This is a repository of data APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/data.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://data.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -64,10 +64,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/apis.yaml
 - name: Knoema
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apis.yaml
-- name: Capital One DevExchange
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/apis.yaml
 - name: Quandl
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/quandl/apis.yaml
 - name: BMC Software
@@ -76,6 +72,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/new-relic/apis.yaml
 - name: AWS Cognito
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apis.yaml
+- name: Capital One DevExchange
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xignite/apis.yaml
 - name: Xignite
@@ -138,9 +138,9 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/myspace-developers/apis.yaml
 - name: OpenDataSoft
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opendatasoft/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/pay-run/apis.yaml
-- name: taxamo
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/payrun-io/apis.yaml
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/taxamo/apis.yaml
 - name: Watchful
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/watchful/apis.yaml

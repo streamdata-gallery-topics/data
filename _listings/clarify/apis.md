@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3503-clari
 x-kinRank: "9"
 x-alexaRank: "2476786"
 tags: Data
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clarify/apis.md
 specificationVersion: "0.14"
 apis:
