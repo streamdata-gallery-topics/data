@@ -1,22 +1,23 @@
 ---
 name: Azure HDInsight
+x-slug: azure-hdinsight
 description: Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop
   solution to the cloud. Gain the full value of big data with a cloud-based data platform
   that manages data of any type and size.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Microsoft
-- Data
-- Analysis
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/azure-hdinsight/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-hdinsight/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://azure.event.hubs.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.hdinsight.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/hdinsight/
 - type: x-pricing

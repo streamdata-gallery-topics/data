@@ -1,32 +1,17 @@
 ---
 name: US Census Bureau
-description: The United States Census Bureau (officially the Bureau of the Census,
-  as defined in Title 13 U.S.C. sect; 11) is a principal agency of the U.S. Federal
-  Statistical System responsible for producing data about the American people and
-  economy. The primary mission of the Census Bureau is conducting the U.S. Census
-  every ten years, which allocates the seats of the U.S. House of Representatives
-  to the states based on their population.[1] In addition to the decennial census,
-  the Census Bureau continually conducts dozens of other censuses and surveys, including
-  the American Community Survey, the U.S. Economic Census, and the Current Population
-  Survey.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/640px-Census_Bureau_seal.svg.png
+x-slug: us-census-bureau
+description: 'How Our Data are Used:      - to determine the distribution of Congressional
+  seats to states--            o mandated by the U.S. Constitution            o used
+  to apportion seats in the U.S. House of Representatives            o used to define
+  legislat...'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/272-us-census-bureau.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Usa
-- Statistics
-- Stack Network
-- Stack
-- Population
-- Government
-- Federal Government
-- Federal Government
-- Demographics
-- Data JSON Target
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/us-census-bureau/apis.yaml
+x-alexaRank: "6299"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/us-census-bureau/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -34,6 +19,10 @@ x-common:
   url: http://api.census.gov
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/us-census-bureau
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/u-s-census-bureau
+- type: x-twitter
+  url: https://twitter.com/uscensusbureau
 - type: x-website
   url: http://www.census.gov/developers/
 - type: x-wikipedia

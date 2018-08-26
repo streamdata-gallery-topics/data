@@ -1,5 +1,6 @@
 ---
 name: AWS Batch
+x-slug: aws-batch
 description: AWS Batch enables developers, scientists, and engineers to easily and
   efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch
   dynamically provisions the optimal quantity and type of compute resources (e.g.,
@@ -11,20 +12,18 @@ description: AWS Batch enables developers, scientists, and engineers to easily a
   services and features, such as Amazon EC2 and Spot Instances.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Science
-- Research
-- Jobs
-- Data
-- Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/aws-batch/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-batch/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.auto.scaling.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.batch.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
 - type: x-faq

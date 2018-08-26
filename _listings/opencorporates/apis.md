@@ -7,47 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: Data
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OpenCorporates Companies  Jurisdiction Code  Company Number Data
-  x-api-slug: opencorporates
-  description: nThis returns the data held for the given company
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4///companies/:jurisdiction_code/:company_number/data
-  tags: Businesses,Companies,:jurisdiction,Code,:company,Number,Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/companiesjurisdiction-codecompany-numberdata-get-openapi.md
-- name: OpenCorporates Data  ID
-  x-api-slug: opencorporates
-  description: nThis returns information on a given datum
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4///data/:id
-  tags: Businesses,Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/dataid-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: OpenCorporates is a database of corporate data. OpenCorporates offers
-    users the ability to search for information on 30 million corporations from around
-    the world. Users can also search by type of corporation. The OpenCorporates API
-    allows developers to access and integrate the data and functionality of OpenCorporates
-    with other applications. Some example API methods include searching and retrieving
-    information on corporation by type, jurisdiction, and company ID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://opencage.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://opencorporates.stack.network
 - type: x-base
   url: https://api.opencorporates.com/
 - type: x-blog

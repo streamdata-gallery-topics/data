@@ -1,22 +1,15 @@
 ---
 name: Clever
-description: The Clever API allows education software developers to access real-time
-  school data from Student Information Systems. The Clever API is built around the
-  concepts of representational state transfer (REST). All communication with the API
-  is done through HTTPS, and errors are communicated through HTTP response codes.
-  All requests return JSON. Using PHP, Python, Ruby, or JavaScript?
-image: ""
+x-slug: clever
+description: With Clever, learning applications get a platform to easily connect with
+  schools and school districts have a central location to manage their technology.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1298-clever.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Education
-- Education
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/clever/apis.yaml
+x-alexaRank: "7738"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clever/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -31,13 +24,27 @@ x-common:
 - type: x-blog-rss
   url: http://blog.clever.com/feed/rss/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/clever
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/clever
 - type: x-developer
   url: https://clever.com/developers
+- type: x-email
+  url: info@clever.com
+- type: x-email
+  url: security@clever.com
+- type: x-email
+  url: jobs@clever.com
+- type: x-email
+  url: urgent@clever.com
+- type: x-email
+  url: tech-support@clever.com
 - type: x-github
   url: http://github.com/dccarroll
 - type: x-github
   url: https://github.com/Clever
+- type: x-twitter
+  url: https://twitter.com/clever
 - type: x-twitter
   url: https://twitter.com/getClever
 - type: x-website

@@ -1,5 +1,6 @@
 ---
 name: DataMade
+x-slug: datamade
 description: DataMade is a civic technology company. We build open source technology
   using open data to empower journalists, researchers, governments and advocacy organizations.
   DataMade was born out of Chicagos Open Government community. In 2011, Derek and
@@ -8,15 +9,11 @@ description: DataMade is a civic technology company. We build open source techno
   and Second City Zoning.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DataMade.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Data
-- City Services
-- API LIfeycle
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/datamade/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datamade/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

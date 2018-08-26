@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Dataproc
+x-slug: google-cloud-dataproc
 description: Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig,
   and Apache Hive service, to easily process big datasets at low cost. Control your
   costs by quickly creating managed clusters of any size and turning them off when
@@ -7,19 +8,18 @@ description: Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache P
   you a powerful and complete data processing platform.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Deployment
-- Database
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-cloud-dataproc/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-dataproc/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.container.builder.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.dataproc.stack.network
 - type: x-change-logs
   url: https://cloud.google.com/dataproc/docs/release-notes/service
 - type: x-documentation

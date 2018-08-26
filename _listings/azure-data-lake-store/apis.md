@@ -1,5 +1,6 @@
 ---
 name: Azure Data Lake Store
+x-slug: azure-data-lake-store
 description: The Data Lake store provides a single repository where you can capture
   data of any size type and speed simply without forcing changes to your application
   as the data scales. In the store, data can be shared for collaboration with enterprise-grade
@@ -11,19 +12,18 @@ description: The Data Lake store provides a single repository where you can capt
   on account or file size unlike current offerings in the market.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Microsoft
-- Database
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/azure-data-lake-store/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-store/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://azure.data.lake.analytics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.data.lake.store.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-store/
 - type: x-pricing

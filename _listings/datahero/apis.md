@@ -1,20 +1,15 @@
 ---
 name: DataHero
-description: Datahero helps you unmask the answers in your data. Therersquo;s nothing
-  to download or install. Simply create an account at www.datahero.com and connect
-  to the data services you use everyday (like Salesforce, Stripe, MailChimp, Dropbox
-  and Box.net). Datahero automatically decodes your data and shows you the answers
-  you need through dynamic visualizations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datahero_logo.png
+x-slug: datahero
+description: DataHero is an online data visualization and data dashboard software
+  platform that makes it easy to share insights with your team and your clients.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11275-datahero.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Spreadsheets
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/datahero/apis.yaml
+x-alexaRank: "85774"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datahero/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -22,6 +17,12 @@ x-common:
   url: https://datahero.com/blog/
 - type: x-blog-rss
   url: https://datahero.com/blog/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/datahero
+- type: x-email
+  url: sales@datahero.com
+- type: x-email
+  url: privacy@datahero.com
 - type: x-github
   url: https://github.com/Datahero
 - type: x-twitter

@@ -1,5 +1,6 @@
 ---
 name: The Guardian
+x-slug: the-guardian
 description: The Guardian is a British national daily newspaper which has grown into
   a national paper associated with a complex organisational structure and an international
   multimedia and web presence. The Guardian provides API access to articles accessible
@@ -8,21 +9,20 @@ description: The Guardian is a British national daily newspaper which has grown 
   including partnership opportunities via platform program.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Partners
-- News
-- Media
-- Data
-- API United Kingdom
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/the-guardian/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/the-guardian/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
+- type: x-api-gallery
+  url: http://telapi.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://the.guardian.stack.network
 - type: x-base
   url: http://content.guardianapis.com/
 - type: x-blog
@@ -33,8 +33,6 @@ x-common:
   url: http://www.theguardian.com/open-platform/blog/idio-guardian-chrome-extension
 - type: x-crunchbase
   url: http://www.crunchbase.com/organization/the-guardian
-- type: x-developer
-  url: http://open-platform.theguardian.com/access/
 - type: x-documentation
   url: http://open-platform.theguardian.com/documentation/
 - type: x-email

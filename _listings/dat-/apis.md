@@ -1,5 +1,6 @@
 ---
 name: Dat
+x-slug: dat-
 description: Dat is a grant funded, open source project housed in the US Open Data
   Institute. While dat is a general purpose tool, we have a focus on open science
   use cases. The high level goal of the dat project is to build a streaming interface
@@ -8,13 +9,11 @@ description: Dat is a grant funded, open source project housed in the US Open Da
   similar to what git brings to source code.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dat.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/dat-/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dat-/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

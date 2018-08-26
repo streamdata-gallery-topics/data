@@ -15,93 +15,160 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Data
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Cognito API Delete Dataset
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - Delete Dataset
+  x-api-slug: actiondeletedataset-get
   description: Deletes the specific dataset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=DeleteDataset
-  tags: Dataset
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondeletedataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondeletedataset-get-openapi.md
-- name: AWS Cognito API Describe Dataset
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - Describe Dataset
+  x-api-slug: actiondescribedataset-get
   description: Gets meta data about a dataset by identity and dataset name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=DescribeDataset
-  tags: Dataset
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondescribedataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondescribedataset-get-openapi.md
-- name: AWS Cognito API List Datasets
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - List Datasets
+  x-api-slug: actionlistdatasets-get
   description: Lists datasets for an identity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=ListDatasets
-  tags: Dataset
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionlistdatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionlistdatasets-get-openapi.md
-- name: AWS Cognito API Subscribe To Dataset
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - Subscribe To Dataset
+  x-api-slug: actionsubscribetodataset-get
   description: Subscribes to receive notifications when a dataset is modified by another
     device.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=SubscribeToDataset
-  tags: Dataset
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionsubscribetodataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionsubscribetodataset-get-openapi.md
-- name: AWS Cognito API Unsubscribe From Dataset
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - Unsubscribe From Dataset
+  x-api-slug: actionunsubscribefromdataset-get
   description: Unsubscribes from receiving notifications when a dataset is modified
     by another device.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=UnsubscribeFromDataset
-  tags: Dataset
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionunsubscribefromdataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionunsubscribefromdataset-get-openapi.md
-- name: AWS Cognito API
-  x-api-slug: aws-cognito-api
-  description: Amazon Cognito lets you easily add user sign-up and sign-in to your
-    mobile and web apps. With Amazon Cognito, you also have the options to authenticate
-    users through social identity providers such as Facebook, Twitter, or Amazon,
-    with SAML identity solutions, or by using your own identity system. In addition,
-    Amazon Cognito enables you to save data locally on users devices, allowing your
-    applications to work even when the devices are offline. You can then synchronize
-    data across users devices so that their app experience remains consistent regardless
-    of the device they use. With Amazon Cognito, you can focus on creating great app
-    experiences instead of worrying about building, securing, and scaling a solution
-    to handle user management, authentication, and sync across devices.
+- name: AWS Cognito Merged API - Delete Dataset
+  x-api-slug: actiondeletedataset-get
+  description: Deletes the specific dataset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
   baseURL: https:///
-  tags: Data
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondeletedataset-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondeletedataset-get-openapi.md
+- name: AWS Cognito Merged API - Describe Dataset
+  x-api-slug: actiondescribedataset-get
+  description: Gets meta data about a dataset by identity and dataset name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondescribedataset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actiondescribedataset-get-openapi.md
+- name: AWS Cognito Merged API - List Datasets
+  x-api-slug: actionlistdatasets-get
+  description: Lists datasets for an identity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionlistdatasets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionlistdatasets-get-openapi.md
+- name: AWS Cognito Merged API - Subscribe To Dataset
+  x-api-slug: actionsubscribetodataset-get
+  description: Subscribes to receive notifications when a dataset is modified by another
+    device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionsubscribetodataset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionsubscribetodataset-get-openapi.md
+- name: AWS Cognito Merged API - Unsubscribe From Dataset
+  x-api-slug: actionunsubscribefromdataset-get
+  description: Unsubscribes from receiving notifications when a dataset is modified
+    by another device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionunsubscribefromdataset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/actionunsubscribefromdataset-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.codedeploy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cognito.stack.network
 - type: x-blog
   url: https://aws.amazon.com/cognito/dev-resources/#blogposts
 - type: x-documentation

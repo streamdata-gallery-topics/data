@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Datastore
+x-slug: google-cloud-datastore
 description: Cloud Datastore is a highly-scalable NoSQL database for your applications.
   Cloud Datastore automatically handles sharding and replication, providing you with
   a highly available and durable database that scales automatically to handle your
@@ -7,19 +8,18 @@ description: Cloud Datastore is a highly-scalable NoSQL database for your applic
   transactions, SQL-like queries, indexes and much more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Deployment
-- Database
-- Data
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/data/master/_listings/google-cloud-datastore/apis.yaml
+x-alexaRank: "0"
+tags: Data
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-datastore/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.dataproc.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.datastore.stack.network
 - type: x-best-practices
   url: https://cloud.google.com/datastore/docs/best-practices
 - type: x-change-log

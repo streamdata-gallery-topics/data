@@ -9,39 +9,30 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Data
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Capital One DevExchange Delete data associated with your API key.
-  x-api-slug: capital-one-devexchange
+- name: Capital One DevExchange - Delete data associated with your API key.
+  x-api-slug: data-delete
   description: This endpoint deletes any data associated with your API key and of
     the type passed in as query parameters.  If you do not specify any type to delete,
     no data will be deleted.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
-  baseURL: https://api.reimaginebanking.com////data
-  tags: Banks,Data
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/data-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/data-delete-openapi.md
-- name: Capital One DevExchange
-  x-api-slug: capital-one-devexchange
-  description: What unites us all is a desire to create better end customer experiences.
-    Were building a full suite of tools and technology that make essential things
-    in peoples everyday life &ndash; money, finances, identity &ndash; simpler for
-    you. Now is the time to join our beta program, and help us shape the future.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
-  humanURL: http://capitalone.com
-  baseURL: https://api.reimaginebanking.com//
-  tags: Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://callfire.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://capital.one.devexchange.stack.network
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
 - type: x-blog
