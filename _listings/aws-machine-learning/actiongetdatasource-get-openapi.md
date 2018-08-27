@@ -112,6 +112,50 @@ paths:
       tags:
       - Machine Learning
       - Data Sources
+  /?Action=CreateMLModel:
+    get:
+      summary: Create M L Model
+      description: |-
+        Creates a new MLModel using the DataSource and the recipe as
+                    information sources.
+      operationId: createMLModel
+      x-api-path-slug: actioncreatemlmodel-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: A user-supplied ID that uniquely identifies the MLModel
+        type: string
+      - in: query
+        name: MLModelName
+        description: A user-supplied name or description of the MLModel
+        type: string
+      - in: query
+        name: MLModelType
+        description: The category of supervised learning that this MLModel will address
+        type: string
+      - in: query
+        name: Parameters
+        description: A list of the training parameters in the MLModel
+        type: string
+      - in: query
+        name: Recipe
+        description: The data recipe for creating the MLModel
+        type: string
+      - in: query
+        name: RecipeUri
+        description: The Amazon Simple Storage Service (Amazon S3) location and file
+          name that contains the MLModel recipe
+        type: string
+      - in: query
+        name: TrainingDataSourceId
+        description: The DataSource that points to the training data
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Models
   /?Action=DeleteDataSource:
     get:
       summary: Delete Data Source
@@ -204,6 +248,28 @@ paths:
       - in: query
         name: Verbose
         description: Specifies whether the GetDataSource operation should return DataSourceSchema
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Data Sources
+  /?Action=UpdateDataSource:
+    get:
+      summary: Update Data Source
+      description: Updates the DataSourceName of a DataSource.
+      operationId: updateDataSource
+      x-api-path-slug: actionupdatedatasource-get
+      parameters:
+      - in: query
+        name: DataSourceId
+        description: The ID assigned to the DataSource during creation
+        type: string
+      - in: query
+        name: DataSourceName
+        description: A new user-supplied name or description of the DataSource that
+          will replace the current description
         type: string
       responses:
         200:

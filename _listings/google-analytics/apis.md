@@ -13,6 +13,17 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google Analytics - Delete Data
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdatasourcescustomdatasourceiddeleteuploaddata-post
+  description: Delete data associated with a previous upload.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdatasourcescustomdatasourceiddeleteuploaddata-post-openapi.md
 - name: Google Analytics - Upload Data
   x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdatasourcescustomdatasourceiduploads-post
   description: Upload data for a custom data source.

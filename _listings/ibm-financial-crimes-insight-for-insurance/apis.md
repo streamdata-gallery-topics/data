@@ -42,6 +42,87 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactaccountid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactaccountid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert event data
+    into the database
+  x-api-slug: ibmfciplatformfactevent-put
+  description: This method is used to insert event data into the database.  The XML
+    schema is defined in the EVENT.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactevent-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve event data
+    from the database, for the id
+  x-api-slug: ibmfciplatformfacteventid-get
+  description: This method is used to retrieve event data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfacteventid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert group data
+    into the database
+  x-api-slug: ibmfciplatformfactgroup-put
+  description: This method is used to insert group data into the database.  The XML
+    schema is defined in the GROUP.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactgroup-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve group data
+    from the database, for the specific group id
+  x-api-slug: ibmfciplatformfactgroupid-get
+  description: This method is used to retrieve specific group data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactgroupid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert party data
+    into the database
+  x-api-slug: ibmfciplatformfactparty-put
+  description: This method is used to insert party data into the database.  The XML
+    schema is defined in the PARTY.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactparty-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve party data
+    from the database, for the id
+  x-api-slug: ibmfciplatformfactpartyid-get
+  description: This method is used to retrieve party data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactpartyid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert physical
+    object data into the database
+  x-api-slug: ibmfciplatformfactphysical-object-put
+  description: This method is used to insert physical object data into the database.  The
+    XML schema is defined in the PhysicalObject.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactphysical-object-put-openapi.md
 - name: Financial Crimes Insight for Insurance public REST APIs - Retrieve a specific
     physical object data from the database, based on its internal id
   x-api-slug: ibmfciplatformfactphysical-objectid-get
@@ -56,6 +137,29 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactphysical-objectid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactphysical-objectid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert transaction
+    data into the database
+  x-api-slug: ibmfciplatformfacttransaction-put
+  description: This method is used to insert transaction data into the database.  The
+    XML schema is defined in the TRANSACTION.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfacttransaction-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve transaction
+    data from the database, by its internal id
+  x-api-slug: ibmfciplatformfacttransactionid-get
+  description: This method is used to retrieve transaction data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfacttransactionid-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://www.ibm.com/support/knowledgecenter/SSC2HF_3.0.0/api/fcii-insurance-v3.0.0.yaml?origin=swagger-ui

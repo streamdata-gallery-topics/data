@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CollabNet
 x-complete: 1
@@ -221,4 +220,3 @@ paths:
       - Data
       - By
       - Fullname
----

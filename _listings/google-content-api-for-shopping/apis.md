@@ -17,6 +17,28 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Content API for Shopping - Data Feeds
+  x-api-slug: datafeedsbatch-post
+  description: Retrieves data feed batches.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeedsbatch-post-openapi.md
+- name: Content API for Shopping - Data Feed Status
+  x-api-slug: datafeedstatusesbatch-post
+  description: Retrieves data feed batch status.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/datafeedstatusesbatch-post-openapi.md
 - name: Content API for Shopping - Get Data Feeds
   x-api-slug: merchantiddatafeeds-get
   description: Lists the datafeeds in your Merchant Center account. This method can
@@ -31,6 +53,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeeds-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeeds-get-openapi.md
+- name: Content API for Shopping - Create Data Feed
+  x-api-slug: merchantiddatafeeds-post
+  description: Registers a datafeed with your Merchant Center account. This method
+    can only be called for non-multi-client accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeeds-post-openapi.md
 - name: Content API for Shopping - Delete Data Feed
   x-api-slug: merchantiddatafeedsdatafeedid-delete
   description: Deletes a datafeed from your Merchant Center account. This method can
@@ -59,6 +93,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeedsdatafeedid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeedsdatafeedid-get-openapi.md
+- name: Content API for Shopping - Update Data Feed
+  x-api-slug: merchantiddatafeedsdatafeedid-patch
+  description: Updates a datafeed of your Merchant Center account. This method can
+    only be called for non-multi-client accounts. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeedsdatafeedid-patch-openapi.md
+- name: Content API for Shopping - Update Data Feed
+  x-api-slug: merchantiddatafeedsdatafeedid-put
+  description: Updates a datafeed of your Merchant Center account. This method can
+    only be called for non-multi-client accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/merchantiddatafeedsdatafeedid-put-openapi.md
 - name: Content API for Shopping - Get Data Feed Status
   x-api-slug: merchantiddatafeedstatuses-get
   description: Lists the statuses of the datafeeds in your Merchant Center account.

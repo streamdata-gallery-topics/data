@@ -35,6 +35,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Delete Spot Datafeed Subscription
+  x-api-slug: actiondeletespotdatafeedsubscription-get
+  description: Deletes the data feed for Spot instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiondeletespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Describe Spot Datafeed Subscription
+  x-api-slug: actiondescribespotdatafeedsubscription-get
+  description: Describes the data feed for Spot instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiondescribespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Get Password Data
+  x-api-slug: actiongetpassworddata-get
+  description: Retrieves the encrypted administrator password for an instance running
+    Windows.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiongetpassworddata-get-openapi.md
 - name: AWS EC2 API - Create Spot Datafeed Subscription
   x-api-slug: actioncreatespotdatafeedsubscription-get
   description: Creates a data feed for Spot instances, enabling you to view Spot instance
@@ -49,6 +83,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Delete Spot Datafeed Subscription
+  x-api-slug: actiondeletespotdatafeedsubscription-get
+  description: Deletes the data feed for Spot instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiondeletespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Describe Spot Datafeed Subscription
+  x-api-slug: actiondescribespotdatafeedsubscription-get
+  description: Describes the data feed for Spot instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiondescribespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Get Password Data
+  x-api-slug: actiongetpassworddata-get
+  description: Retrieves the encrypted administrator password for an instance running
+    Windows.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/actiongetpassworddata-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.dynamodb.api.gallery.streamdata.io

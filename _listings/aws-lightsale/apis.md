@@ -15,7 +15,33 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lightsale API - Get Instance Metric Data
+  x-api-slug: actiongetinstancemetricdata-get
+  description: |-
+    Returns the data points for the specified Amazon Lightsail instance metric, given an
+          instance name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-lightsale/actiongetinstancemetricdata-get-openapi.md
+- name: AWS Lightsale API - Get Instance Metric Data
+  x-api-slug: actiongetinstancemetricdata-get
+  description: |-
+    Returns the data points for the specified Amazon Lightsail instance metric, given an
+          instance name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-lightsale/actiongetinstancemetricdata-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io

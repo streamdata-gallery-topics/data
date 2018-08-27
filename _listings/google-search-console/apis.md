@@ -13,7 +13,21 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Search Console - Query Data
+  x-api-slug: sitessiteurlsearchanalyticsquery-post
+  description: |-
+    Query your data with filters and parameters that you define. Returns zero or more rows grouped by the row keys that you define. You must define a date range of one or more days.
+
+    When date is one of the group by values, any days without data are omitted from the result list. If you need to know which days have data, issue a broad date range query grouped by date for any metric, and see which day rows are returned.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/sitessiteurlsearchanalyticsquery-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.safe.browsing.api.gallery.streamdata.io

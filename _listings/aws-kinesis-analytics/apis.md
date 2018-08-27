@@ -18,7 +18,57 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Kinesis Analytics API - Add Application Reference Data Source
+  x-api-slug: actionaddapplicationreferencedatasource-get
+  description: Adds a reference data source to an existing application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  humanURL: https://aws.amazon.com/kinesis/analytics/
+  baseURL: :///
+  tags: Amazon Web Services, Analysis, Logging, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/actionaddapplicationreferencedatasource-get-openapi.md
+- name: AWS Kinesis Analytics API - Delete Application Reference Data Source
+  x-api-slug: actiondeleteapplicationreferencedatasource-get
+  description: Deletes a reference data source configuration from the specified application
+    configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  humanURL: https://aws.amazon.com/kinesis/analytics/
+  baseURL: :///
+  tags: Amazon Web Services, Analysis, Logging, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/actiondeleteapplicationreferencedatasource-get-openapi.md
+- name: AWS Kinesis Analytics API - Add Application Reference Data Source
+  x-api-slug: actionaddapplicationreferencedatasource-get
+  description: Adds a reference data source to an existing application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  humanURL: https://aws.amazon.com/kinesis/analytics/
+  baseURL: :///
+  tags: Amazon Web Services, Analysis, Logging, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/actionaddapplicationreferencedatasource-get-openapi.md
+- name: AWS Kinesis Analytics API - Delete Application Reference Data Source
+  x-api-slug: actiondeleteapplicationreferencedatasource-get
+  description: Deletes a reference data source configuration from the specified application
+    configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  humanURL: https://aws.amazon.com/kinesis/analytics/
+  baseURL: :///
+  tags: Amazon Web Services, Analysis, Logging, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/actiondeleteapplicationreferencedatasource-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.kinesis.api.gallery.streamdata.io

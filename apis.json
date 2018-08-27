@@ -1,0 +1,2902 @@
+{
+	"name": "Streadata.io API Gallery - Data",
+	"description": "This is a repository of data APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/data.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://data.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Splunk",
+			"x-api-slug": "splunk",
+			"description": "Splunk Inc. turns machine data into answers with the leading platform to tackle the toughest IT, IoT and security challenges. Use Splunk to search, monitor, analyze and visualize machine data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10-splunk-dev.jpg",
+			"humanURL": "http://splunk.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/splunk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Socrata",
+			"x-api-slug": "socrata",
+			"description": "Join more than 1,000 government organizations using Socrata to put their data online, share insights, and make data-driven decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/24-socrata.jpg",
+			"humanURL": "http://socrata.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/socrata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Firebase",
+			"x-api-slug": "firebase",
+			"description": "Firebase is a mobile platform that gives developers the tools and infrastructure to build better apps and grow successful businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png",
+			"humanURL": "https://Firebase.google.com",
+			"baseURL": "https://{project_id].firebaseio.co}//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/firebase/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Factual",
+			"x-api-slug": "factual",
+			"description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg",
+			"humanURL": "http://www.factual.com/",
+			"baseURL": "https://api.v3.factual.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/factual/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "World Bank Data",
+			"x-api-slug": "world-bank-data",
+			"description": "With 189 member countries, the World Bank Group is a unique global partnership fighting poverty worldwide through sustainable solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/146-world-bank-data.jpg",
+			"humanURL": "http://data.worldbank.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/world-bank-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hootsuite",
+			"x-api-slug": "hootsuite",
+			"description": "Enhance your social media management with Hootsuite, the leading social media dashboard. Manage multiple networks and profiles and measure your campaign results.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/160-hootsuite.jpg",
+			"humanURL": "",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/hootsuite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BreweryDB",
+			"x-api-slug": "brewerydb",
+			"description": "An open library of breweries and beers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/164-brewerydb.jpg",
+			"humanURL": "http://www.brewerydb.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/brewerydb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datameer",
+			"x-api-slug": "datameer",
+			"description": "Datameer delivers an agile, unified & governed approach to managing data for analytics. Datameer???s modern analytic data platform transforms complex, diverse data into a governed enterprise-wide network of data pipelines that feed your analytics initiat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/176-datameer.jpg",
+			"humanURL": "http://www.datameer.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datameer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataSift",
+			"x-api-slug": "datasift",
+			"description": "DataSift is the leader in Human Data Intelligence. The only independent provider of social data, blog data and news data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/177-datasift-developer.jpg",
+			"humanURL": "http://dev.datasift.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datasift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FullContact",
+			"x-api-slug": "fullcontact",
+			"description": "Build a clearer picture of your customers in minutes with our data-focused APIs. Manage your personal or teams contacts with our contact apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg",
+			"humanURL": "http://fullcontact.com",
+			"baseURL": "https://api.fullcontact.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fullcontact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Guardian",
+			"x-api-slug": "the-guardian",
+			"description": "The Guardian is a British national daily newspaper which has grown into a national paper associated with a complex organisational structure and an international multimedia and web presence. The Guardian provides API access to articles accessible by tag and section, and a suite of open source data and tools. The Guardian makes content accessible to increase traffic, brand awareness, and as a marketing vehicle, including partnership opportunities via platform program.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png",
+			"humanURL": "http://www.guardian.co.uk/open-platform",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/the-guardian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "US Census Bureau",
+			"x-api-slug": "us-census-bureau",
+			"description": "How Our Data are Used:      - to determine the distribution of Congressional seats to states--            o mandated by the U.S. Constitution            o used to apportion seats in the U.S. House of Representatives            o used to define legislat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/272-us-census-bureau.jpg",
+			"humanURL": "http://www.census.gov/developers/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/us-census-bureau/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data8 Ltd",
+			"x-api-slug": "data8-ltd",
+			"description": "We believe that clean accurate data is the key to every successful business and this has been our philosophy since 2005. This philosophy has enabled us to become the leading total data quality solutions provider by simplifying and automating data management processes, so customers can completely trust their data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/d8logo_trans.png",
+			"humanURL": "http://www.data-8.co.uk",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/data8-ltd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StrikeIron",
+			"x-api-slug": "strikeiron",
+			"description": "StrikeIron is the leader in Data-as-a-Service (DaaS), delivering data quality and communications solutions via our cloud platform IronCloud. We provide address verification, email verification, phone validation, phone append, SMS text messaging, and sales tax solutions to customers in a variety of markets. Our solutions are delivered as Web services that can be easily integrated into any application or system. Additionally, our solutions are pre-integrated into leading platforms like: Salesforce.com, Magento, Informatica, Oracle CRM On-Demand, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/372-informatica.jpg",
+			"humanURL": "http://www.informatica.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/strikeiron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Server Density",
+			"x-api-slug": "server-density",
+			"description": "SaaS infrastructure monitoring. Dashboards, graphs and alerts to help you improve performance and maintain uptime. Organizer of @humanops",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg",
+			"humanURL": "https://www.serverdensity.com",
+			"baseURL": "://api.serverdensity.io./",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/server-density/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Factolex",
+			"x-api-slug": "factolex",
+			"description": "Factolex is a community-powered fact lexicon going straight to the point.Users can build their own lexicon by selecting the facts most relevant to them, and, extend the knowledge by adding new terms and facts. The Factolex API follows a simple REST approach. Parameters for methods are set through URL parameters.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factolex-logo.gif",
+			"humanURL": "http://factolex.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/factolex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoodData",
+			"x-api-slug": "gooddata",
+			"description": "GoodData goes beyond traditional business intelligence and analytics delivering insights at the moment of action to drive better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/601-gooddata.jpg",
+			"humanURL": "http://gooddata.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/gooddata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Urban Mapping",
+			"x-api-slug": "urban-mapping",
+			"description": "Crafting commerce through customer information management, location intelligence, customer engagement, shipping, mailing & ecommerce. Customer Service @PBcares.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/613-urban-mapping.jpg",
+			"humanURL": "http://developer.urbanmapping.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/urban-mapping/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WeoGeo Status",
+			"x-api-slug": "weogeo-status",
+			"description": "Positioning-centric information is changing the way people, businesses and governments work throughout the world. By applying Trimbles advanced positioning solutions, productivity increases and safety improvements are being realized.    Though best kn...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/674-weogeo-status.jpg",
+			"humanURL": "http://www.weogeo.com/developer_doc/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/weogeo-status/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Junar.com",
+			"x-api-slug": "junar-com",
+			"description": "Fast, easy, and affordable way to transform data into resources that businesses, governments, NGOs, academia and citizens can use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/827-junar-com.jpg",
+			"humanURL": "http://www.junar.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/junar-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plings",
+			"x-api-slug": "plings",
+			"description": "",
+			"image": "",
+			"humanURL": "http://www.plings.info/wiki/index.php/Main_Page",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plings/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataONE",
+			"x-api-slug": "dataone",
+			"description": "Data Observation Network for Earth (DataONE) is the foundation of new innovative environmental science through a distributed framework and sustainable cyberinfrastructure that meets the needs of science and society for open, persistent, robust, and sec...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1002-dataone.jpg",
+			"humanURL": "https://www.dataone.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataone/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenCorporates",
+			"x-api-slug": "opencorporates",
+			"description": "Free and Open Company Data on 135 million companies and corporations in over 125 jurisdictions, including US, UK, Switzerland, Panama...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg",
+			"humanURL": "http://opencorporates.com",
+			"baseURL": "://api.opencorporates.com/v0.4/",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Simperium",
+			"x-api-slug": "simperium",
+			"description": "Sync instantly across iOS, Android, the web and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1234-simperium.jpg",
+			"humanURL": "https://simperium.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/simperium/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM",
+			"x-api-slug": "ibm",
+			"description": "IBM is a global technology and innovation company headquartered in Armonk, NY. It is the largest technology and consulting employer in the world, with more than 400,000 employees serving clients in 170 countries. IBM offers a wide range of technology and consulting services; a broad portfolio of middleware for collaboration, predictive analytics, software development and systems management; and the worlds most advanced servers and supercomputers. Utilizing its business consulting, technology and R&amp;D expertise, IBM helps clients become smarter as the planet becomes more digitally interconnected.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1255-cloudant.jpg",
+			"humanURL": "https://ibm.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clever",
+			"x-api-slug": "clever",
+			"description": "With Clever, learning applications get a platform to easily connect with schools and school districts have a central location to manage their technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1298-clever.jpg",
+			"humanURL": "https://getclever.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clever/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bugswarm",
+			"x-api-slug": "bugswarm",
+			"description": "Acquire data from and control embedded devices using JavaScript or plain old HTTP. Combine multiple resources together to create a swarm. Once a member of a swarm, a resource can communicate and share data with other resources in that swarm. Control the level of access a resource has to a swarm. Grant a resource permission to produce data, consume data, or do both. Invite another users resources into your swarms and accept invitations to place your resources in somebody elses swarms. Share your data easily and securely.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bugswarm-logo.png",
+			"humanURL": "http://developer.bugswarm.net/index.html",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bugswarm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataKC",
+			"x-api-slug": "datakc",
+			"description": "Crowdtilt allows groups to pool funds for objectives in a simple, social, and frictionless way online.We all love doing things as a group. Like with a lot of experiences, it&#8217;s not what you do ??? it&#8217;s the people you do it with that matters more.At Crowdtilt, we&#8217;re trying to make it easier for groups to do things together. Whether it&#8217;s a party-bus to the next Phish show or pooling money for a cause you know your close friends are passionate about ??? we just want to make that process of grouping those funds as easy as possible.",
+			"image": "",
+			"humanURL": "http://www.datakc.org",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datakc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "123FormBuilder",
+			"x-api-slug": "123formbuilder",
+			"description": "Create free web forms for your website within minutes, build complex workflows, sell online and more. With the simple drag & drop interface, building an online form, survey, poll or quiz is a breeze. Sign up for free to get started!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg",
+			"humanURL": "http://www.123formbuilder.com",
+			"baseURL": "https://api.123contactform.com//v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/123formbuilder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Import.io",
+			"x-api-slug": "import-io",
+			"description": "Home Page - Import.io - Web Scraping, Data Extraction and Web Harvesting",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg",
+			"humanURL": "https://www.import.io/",
+			"baseURL": "https://schedule.import.io//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/import-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hatebase",
+			"x-api-slug": "hatebase",
+			"description": "Worlds largest and most authoritative structured repository of hate speech",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1869-hatebase.jpg",
+			"humanURL": "http://www.hatebase.org",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/hatebase/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ragic",
+			"x-api-slug": "ragic",
+			"description": "Design powerful Web databases for your business with simple Excel-like interface. Business data management solution that just works.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2077-ragic.jpg",
+			"humanURL": "http://www.ragic.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ragic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dronestream",
+			"x-api-slug": "dronestream",
+			"description": "Real-time and historical data about every reported covert United States drone strike. A publicly-accessible API. With a simple browser request, designers and developers can build data visualizations about covert war. Stay up to date on the latest drone attacks being carried out in Pakistan, Yemen, and Somalia. Researchers and legal scholars can look for a specific drone strike or begin to analyze historical trends.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Dronestream.png",
+			"humanURL": "http://dronestre.am/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dronestream/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Primal",
+			"x-api-slug": "primal",
+			"description": "Primals technology is an artificial intelligence that synthesizes semantic data in real-time. Primals AI produces semantic representations as interest graphs, powering automated and personalized computing experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2163-primal.jpg",
+			"humanURL": "https://about.primal.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/primal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aculocity",
+			"x-api-slug": "aculocity",
+			"description": "Aculocity is a software development and data management company based in Chicago.        Aculocity specializes in custom software development, data integration, erp integration and technology management         with a vast amount of exeperience in th...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3715-aculocity.jpg",
+			"humanURL": "http://aculocity.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aculocity/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Acxiom",
+			"x-api-slug": "acxiom",
+			"description": "Acxioms data and technology transform marketing  giving our clients the power to manage audiences, personalize customer experiences and create profitable customer relationships.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10134-acxiom.jpg",
+			"humanURL": "http://www.acxiom.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/acxiom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Altos Data Geeks",
+			"x-api-slug": "altos-data-geeks",
+			"description": "We track 100 million properties across the U.S. so you (and your clients) can stay ahead of the curve.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10159-altos-data-geeks.jpg",
+			"humanURL": "http://www.altosresearch.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/altos-data-geeks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Energy Information Administration",
+			"x-api-slug": "energy-information-administration",
+			"description": "The U.S. Energy Information Administration (EIA) is a principal agency of the U.S. Federal Statistical System responsible for collecting, analyzing, and disseminating energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA programs cover data on coal, petroleum, natural gas, electric, renewable and nuclear energy. EIA is part of the U.S. Department of Energy.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EIA_logo.jpg",
+			"humanURL": "http://www.eia.gov",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/energy-information-administration/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Labor Statistics",
+			"x-api-slug": "bureau-of-labor-statistics",
+			"description": "The Bureau of Labor Statistics (BLS) is a unit of the United States Department of Labor. It is the principal fact-finding agency for the U.S. government in the broad field of labor economics and statistics and serves as a principal agency of the U.S. Federal Statistical System. The BLS is a governmental statistical agency that collects, processes, analyzes, and disseminates essential statistical data to the American public, the U.S. Congress, other Federal agencies, State and local governments, business, and labor representatives. The BLS also serves as a statistical resource to the Department of Labor, and conducts research into how much families need to earn to be able to enjoy a decent standard of living.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/400px-Bureau_of_labor_statistics_logo.svg.png",
+			"humanURL": "http://www.bls.gov",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bureau-of-labor-statistics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataHero",
+			"x-api-slug": "datahero",
+			"description": "DataHero is an online data visualization and data dashboard software platform that makes it easy to share insights with your team and your clients.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11275-datahero.jpg",
+			"humanURL": "https://datahero.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datahero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Development Seed",
+			"x-api-slug": "development-seed",
+			"description": "We help empower citizens and organizations with tools and data to solve complex issues and make better decisions. As a small team we have implemented some of the largest developmentprojects. Our agile approach has been refinedover yearsof experience building open source and highly performant web applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DevelopmentSeed.png",
+			"humanURL": "http://www.developmentseed.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/development-seed/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataMade",
+			"x-api-slug": "datamade",
+			"description": "DataMade is a civic technology company. We build open source technology using open data to empower journalists, researchers, governments and advocacy organizations. DataMade was born out of Chicagos Open Government community. In 2011, Derek and Forest started working on civic technology as volunteers of Open City. At nights and over weekends, theyve helped make civic apps like Chicago Lobbyists, Clear Streets, and Second City Zoning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DataMade.png",
+			"humanURL": "http://datamade.us/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datamade/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CKAN",
+			"x-api-slug": "ckan",
+			"description": "The #opensource #opendata platform. Powering http://t.co/GdXNmN65Sf, http://t.co/9O9OJjJnJd & portals around the world: http://t.co/YEGynxgDgM. Join us!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11383-ckan.jpg",
+			"humanURL": "http://ckan.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ckan/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quandl",
+			"x-api-slug": "quandl",
+			"description": "Quandl delivers financial data to users in the format they want. Access thousands of databases via the Quandl API or in your tool of choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg",
+			"humanURL": "http://quandl.com",
+			"baseURL": "https://www.quandl.com//api/v3",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/quandl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dat ",
+			"x-api-slug": "dat-",
+			"description": "Dat is a grant funded, open source project housed in the US Open Data Institute. While dat is a general purpose tool, we have a focus on open science use cases. The high level goal of the dat project is to build a streaming interface between every database and file storage backend in the world. By building tools to build and share data pipelines we aim to bring to data a style of collaboration similar to what git brings to source code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dat.png",
+			"humanURL": "http://dat-data.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dat-/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataValidation",
+			"x-api-slug": "datavalidation",
+			"description": "A complete solution for email marketers and ESPs. The most comprehensive API for realtime email validation, email list validation, and automating daily list maintenance with Email Assurance. Check email list quality, or monitor list quality over time with free vetting tokens included with every plan. Analyze the quality of an email address at the point of signup. Our API can handle extremely high volume. Clean email lists quickly and receive comprehensive email deliverability data on each email address. Your entire list is returned to you with Email Assurance grades ranging from A+ to F. Automate your email list maintenance with our API. Protect your deliverability by integrating the complete Email Assurance solution. Set up daily list monitoring, weekly list maintenance, and the realtime email validation behind your webform. We analyze all email data daily, ensuring that your email list is always ready for deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-validation-api.png",
+			"humanURL": "https://developer.datavalidation.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datavalidation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blizzard",
+			"x-api-slug": "blizzard",
+			"description": "This is the documentation for the RESTful APIs exposed through the World of Warcraft community site as a service to the World of Warcraft community.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Blizzard_Entertainment_Logo.svg.png",
+			"humanURL": "http://battle.net",
+			"baseURL": "https://us.battle.net//api/wow/",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/blizzard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Avro",
+			"x-api-slug": "apache-avro",
+			"description": "Apache Avro is a data serialization system. Avro relies on schemas. When Avro data is read, the schema used when writing it is always present. This permits each datum to be written with no per-value overheads, making serialization both fast and small. This also facilitates use with dynamic, scripting languages, since data, together with its schema, is fully self-describing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-avro.png",
+			"humanURL": "https://avro.apache.org/docs/current/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apache-avro/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Flink",
+			"x-api-slug": "apache-flink",
+			"description": "Flink&rsquo;s core is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams. Flink includes several APIs for creating applications that use the Flink engine. You can integrate Flink easily with other well-known open source systems both for data input and output as well as deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-fink.jpeg",
+			"humanURL": "https://flink.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apache-flink/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Eligibility",
+			"x-api-slug": "open-eligibility",
+			"description": "The Open Eligibility Project is a collaborative for a better human service taxonomy. The taxonomy is a simple way to categorize human services and human situations. With these common categories, we, as service providers, navigators, and people in need, can find human services quickly and easily. This is an API setup and operated by API Evangelist to support the evolution of the specification, and use across many different human services API projects.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/adopta-agency/adopta-agency-primary.png",
+			"humanURL": "https://about.auntbertha.com/openeligibility",
+			"baseURL": "://http://api.open.eligibility.adopta.agency//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/open-eligibility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Scribe",
+			"x-api-slug": "scribe",
+			"description": "Scribe Software Corporation provides cost-effective, no-coding solutions that can be used as the only tool businesses need to integrate virtually any application, data source or Software as a Service (SaaS) platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/scribe-soft-logo.jpg",
+			"humanURL": "http://www.scribesoft.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/scribe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Data Commons",
+			"x-api-slug": "open-data-commons",
+			"description": "Open Data Commons exists to provide legal solutions for open data. In March 2008 it launched the first ever open data license: the Public Domain Dedication and License (PDDL). Open Data Commons is an Open Knowledge Foundation project run by its Advisory Council and like the Foundation is a not-for-profit effort working for the benefit of the general open knowledge community.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-data-commons.png",
+			"humanURL": "http://opendatacommons.org/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/open-data-commons/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apollo",
+			"x-api-slug": "apollo",
+			"description": "Apollo is an incrementally-adoptable data stack that manages the flow of data between clients and backends. Based on GraphQL, it gives you a principled, unified, and scalable API for developing modern apps on top of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apollo-stack.png",
+			"humanURL": "https://www.apollographql.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apollo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigCommerce",
+			"x-api-slug": "bigcommerce",
+			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than 60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies, and industry-leading brands.",
+			"image": "",
+			"humanURL": "http://bigcommerce.com",
+			"baseURL": "https://api.bigcommerce.com//stores",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bigcommerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Capital One DevExchange",
+			"x-api-slug": "capital-one-devexchange",
+			"description": "What unites us all is a desire to create better end customer experiences. Were building a full suite of tools and technology that make essential things in peoples everyday life &ndash; money, finances, identity &ndash; simpler for you. Now is the time to join our beta program, and help us shape the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png",
+			"humanURL": "http://capitalone.com",
+			"baseURL": "https://api.reimaginebanking.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudWatch",
+			"x-api-slug": "aws-cloudwatch",
+			"description": "Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources. Amazon CloudWatch can monitor AWS resources such as Amazon EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as custom metrics generated by your applications and services, and any log files your applications generate. You can use Amazon CloudWatch to gain system-wide visibility into resource utilization, application performance, and operational health. You can use these insights to react and keep your application running smoothly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png",
+			"humanURL": "https://aws.amazon.com/cloudwatch/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cloudwatch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lightsale",
+			"x-api-slug": "aws-lightsale",
+			"description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail servers through the Lightsail console or by using the API or command-line interface (CLI).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png",
+			"humanURL": "https://amazonlightsail.com/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-lightsale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Batch",
+			"x-api-slug": "aws-batch",
+			"description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted. With AWS Batch, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. AWS Batch plans, schedules, and executes your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg",
+			"humanURL": "https://aws.amazon.com/batch/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-batch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Snowball",
+			"x-api-slug": "aws-snowball",
+			"description": "Snowball is a petabyte-scale data transport solution that uses secure appliances totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns. Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet.With Snowball, you don&rsquo;t need to write any code or purchase any hardware to transfer your data. Simply create a job in the AWS Management Console and a Snowball appliance will be automatically shipped to you*. Once it arrives, attach the appliance to your local network, download and run the Snowball client to establish a connection, and then use the client to select the file directories that you want to transfer to the appliance. The client will then encrypt and transfer the files to the appliance at high speed. Once the transfer is complete and the appliance is ready to be returned, the E Ink shipping label will automatically update and you can track the job status viaAmazon Simple Notification Service (SNS), text messages, or directly in the Console.Snowball uses multiple layers of security designed to protect your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody of your data. Once the data transfer job has been processed and verified, AWS performs a software erasure of the Snowball appliance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png",
+			"humanURL": "https://aws.amazon.com/snowball/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-snowball/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"x-api-slug": "aws-code-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-code-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Key Management Service",
+			"x-api-slug": "aws-key-management-service",
+			"description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys. AWS Key Management Service is integrated with several other AWS services to help you protect the data you store with these services. AWS Key Management Service is also integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg",
+			"humanURL": "https://aws.amazon.com/kms/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"x-api-slug": "aws-elastic-mapreduce",
+			"description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png",
+			"humanURL": "https://aws.amazon.com/emr/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-elastic-mapreduce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudSearch",
+			"x-api-slug": "aws-cloudsearch",
+			"description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application.Amazon CloudSearch supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search. For more information, see Benefits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png",
+			"humanURL": "https://aws.amazon.com/cloudsearch/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cloudsearch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis",
+			"x-api-slug": "aws-kinesis",
+			"description": "Amazon Kinesis Firehose is the easiest way to load streaming data into AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics, Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time analytics with existing business intelligence tools and dashboards you are already using today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png",
+			"humanURL": "https://aws.amazon.com/kinesis/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"x-api-slug": "aws-kinesis-analytics",
+			"description": "Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png",
+			"humanURL": "https://aws.amazon.com/kinesis/analytics/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"x-api-slug": "aws-data-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Machine Learning",
+			"x-api-slug": "aws-machine-learning",
+			"description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology. Amazon Machine Learning provides visualization tools and wizards that guide you through the process of creating machine learning (ML) models without having to learn complex ML algorithms and technology. Once your models are ready, Amazon Machine Learning makes it easy to obtain predictions for your application using simple APIs, without having to implement custom prediction generation code, or manage any infrastructure.Amazon Machine Learning is based on the same proven, highly scalable, ML technology used for years by Amazon&rsquo;s internal data scientist community. The service uses powerful algorithms to create ML models by finding patterns in your existing data. Then, Amazon Machine Learning uses these models to process new data and generate predictions for your application.Amazon Machine Learning is highly scalable and can generate billions of predictions daily, and serve those predictions in real-time and at high throughput. With Amazon Machine Learning, there is no upfront hardware or software investment, and you pay as you go, so you can start small and scale as your application grows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png",
+			"humanURL": "https://aws.amazon.com/machine-learning/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-machine-learning/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Analytics",
+			"x-api-slug": "google-analytics",
+			"description": "Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience. You can then share the insights that matter with your whole organization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png",
+			"humanURL": "https://www.google.com/analytics/#?modal_active=none",
+			"baseURL": "https://www.googleapis.com//analytics/v3",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Biquery",
+			"x-api-slug": "google-biquery",
+			"description": "BigQuery is Googles fully managed, petabyte scale, low cost enterprise data warehouse for analytics. BigQuery is serverless. There is no infrastructure to manage and you dont need a database administrator, so you can focus on analyzing data to find meaningful insights using familiar SQL. BigQuery is a powerful Big Data analytics platform used by all types of organizations, from startups to Fortune 500 companies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png",
+			"humanURL": "https://cloud.google.com/bigquery/",
+			"baseURL": "://www.googleapis.com//bigquery/v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Civic Information",
+			"x-api-slug": "google-civic-information",
+			"description": "The Google Civic Information API lets developers build applications that display civic information to their users. For any U.S. residential address, you can look up who represents that address at each elected level of government. During supported elections, you can also look up polling places, early vote location, candidate data, and other election official information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-civic-information-api.png",
+			"humanURL": "https://developers.google.com/civic-information/",
+			"baseURL": "://www.googleapis.com//civicinfo/v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-civic-information/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"x-api-slug": "google-content-api-for-shopping",
+			"description": "API allowing retailers to manage their product feed content programmatically. Providing item-level data quality information: See if an item was disapproved because a landing page URL isn&rsquo;t working on a mobile device or if unique product identifiers are inaccurate. Faster pricing and availability updates: Ensure customers have the latest price-points and know what&rsquo;s in-stock before they click through to your site. More integration options: The newer API supports a broader choice of programming languages and data formats.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg",
+			"humanURL": "https://developers.google.com/shopping-content/v2/quickstart",
+			"baseURL": "://www.googleapis.com//content/v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Dataflow",
+			"x-api-slug": "google-dataflow",
+			"description": "Dataflow is a unified programming model and a managed service for developing and executing a wide range of data processing patterns including ETL, batch computation, and continuous computation. Cloud Dataflow frees you from operational tasks like resource management and performance optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg",
+			"humanURL": "https://cloud.google.com/dataflow/",
+			"baseURL": "://dataflow.googleapis.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-dataflow/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"x-api-slug": "google-cloud-dataproc",
+			"description": "Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig, and Apache Hive service, to easily process big datasets at low cost. Control your costs by quickly creating managed clusters of any size and turning them off when youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving you a powerful and complete data processing platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png",
+			"humanURL": "https://cloud.google.com/dataproc/",
+			"baseURL": "://dataproc.googleapis.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-dataproc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"x-api-slug": "google-cloud-datastore",
+			"description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications load. Cloud Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, indexes and much more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png",
+			"humanURL": "https://cloud.google.com/datastore/",
+			"baseURL": "://datastore.googleapis.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-datastore/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Fusion Tables",
+			"x-api-slug": "google-fusion-tables",
+			"description": "Fusion Tables is an experimental data visualization web application to gather, visualize, and share data tables.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fusion-tables.jpg",
+			"humanURL": "https://developers.google.com/fusiontables/",
+			"baseURL": "://www.googleapis.com//fusiontables/v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fusion-tables/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Search Console",
+			"x-api-slug": "google-search-console",
+			"description": "Search Console is a free service that enables you to monitor your sites performance in Google Search, to ensure that Google can crawl your site or app correctly, and to test the validity and performance of a given page. Search Console provides programmatic access to the service through the APIs documented here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif",
+			"humanURL": "https://developers.google.com/webmaster-tools/",
+			"baseURL": "://searchconsole.googleapis.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Sheets",
+			"x-api-slug": "google-sheets",
+			"description": "Google Sheets is an online spreadsheet app that lets users create and format spreadsheets and simultaneously work with other people. Google Sheets isn&rsquo;t only for consumers: its used every day by businesses and schools to manage spreadsheet data. With the new Sheets API v4 and Sheets add-ons, that data can be accessed by code as well as users.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png",
+			"humanURL": "https://developers.google.com/sheets/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-sheets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"x-api-slug": "azure-data-lake-analytics",
+			"description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need. You only pay for your job when it is running making it cost-effective. The analytics service supports Azure Active Directory letting you simply manage access and roles, integrated with your on-premises identity system. It also includes U-SQL, a language that unifies the benefits of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed runtime enables you to efficiently analyze data in the store and across SQL Servers in Azure, Azure SQL Database and Azure SQL Data Warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/",
+			"baseURL": ":////",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"x-api-slug": "azure-data-lake-store",
+			"description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads. For example, data can be ingested in real-time from sensors and devices for IoT solutions, or from online shopping websites into the store without the restriction of fixed limits on account or file size unlike current offerings in the market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-store/",
+			"baseURL": ":////",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-store/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure HDInsight",
+			"x-api-slug": "azure-hdinsight",
+			"description": "Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop solution to the cloud. Gain the full value of big data with a cloud-based data platform that manages data of any type and size.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/hdinsight/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-hdinsight/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lisk",
+			"x-api-slug": "lisk",
+			"description": "Lisk makes it easy for developers to build and deploy blockchain applications in JavaScript. Join the leading platform for world-changing dapps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg",
+			"humanURL": "https://lisk.io",
+			"baseURL": "https:////api",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intrinio",
+			"x-api-slug": "intrinio",
+			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "QUODD Financial",
+			"x-api-slug": "quodd-financial",
+			"description": "QUODD Equity+ is a comprehensive market data workstation designed for the financial investment professional",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28091-quodd-financial.jpg",
+			"humanURL": "http://home.quodd.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/quodd-financial/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StreamSets",
+			"x-api-slug": "streamsets",
+			"description": "StreamSets software delivers performance management for data flows that feed the next generation of big data applications. Its mission is to bring operational excellence to the management of data in motion, so that data continually arrives on-time and with quality, empowering business-critical analysis and decision-making.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28193-streamsets.jpg",
+			"humanURL": "http://streamsets.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/streamsets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Landoop",
+			"x-api-slug": "landoop",
+			"description": "At Landoop we help you join the fast data streaming revolution. We have a strong big and fast data culture, and highly focused on Apache Kafka, we are making solutions that aim to simplify your interaction with a complex stack. Streaming Data Pipelines at their best: Kafka native and Kubernets native. We help engineers understand their platform. We help companies join the streaming world. We focus on technology and products that streamline your data pipelines, connect with external systems, easily manage your cluster and zoom into it!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28195-www-landoop-com.jpg",
+			"humanURL": "http://www.landoop.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/landoop/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clarity Insights",
+			"x-api-slug": "clarity-insights",
+			"description": "Clarity Insights is a big data solutions and data science consulting firm, the largest 100% onshore big data and data science consultancy in the United States.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28221-www-clarityinsights-com.jpg",
+			"humanURL": "https://www.clarityinsights.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clarity-insights/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Crux",
+			"x-api-slug": "crux",
+			"description": "Crux is a data operations service that adopts data supply chains, ensuring they mature into cohesive, stable, and performant systems. Its features include data management platforms, professional services, and a global data supplier network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28227-www-cruxinformatics-com.jpg",
+			"humanURL": "https://www.cruxinformatics.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/crux/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dataiku",
+			"x-api-slug": "dataiku",
+			"description": "Dataikus collaborative data science platform enables the whole data team to explore, prototype, build and deliver their own data products more efficiently.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28238-www-dataiku-com.jpg",
+			"humanURL": "https://www.dataiku.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataiku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Saagie",
+			"x-api-slug": "saagie",
+			"description": "Find out the ready to use Big Data platform Saagie that supports your business through data lifecycle from extraction to analysis",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/saagie-cloud.png",
+			"humanURL": "https://www.saagie.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/saagie/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RapidMiner",
+			"x-api-slug": "rapidminer",
+			"description": "RapidMiner is a software platform for data science teams that unites data prep, machine learning, and predictive model deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28241-rapidminer.jpg",
+			"humanURL": "https://rapidminer.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/rapidminer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Indico",
+			"x-api-slug": "indico",
+			"description": "indico turns raw text and image data into human insights. We???re lowering the barriers to the development, integration, and customization of machine learning algorithms by providing developer-friendly tools and APIs for building smarter software",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28243-indico-io.jpg",
+			"humanURL": "https://indico.io",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/indico/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dataminr",
+			"x-api-slug": "dataminr",
+			"description": "Dataminr senses critical events as they happen and alerts professionals in news, finance, public sector, corporate security, and communications faster than traditional sources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28244-www-dataminr-com.jpg",
+			"humanURL": "https://www.dataminr.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataminr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Price List Service",
+			"x-api-slug": "aws-price-list-service",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-kafka.png",
+			"humanURL": "http://api.pricing.amazonaws.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-price-list-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Io T Jobs Data Plane",
+			"x-api-slug": "aws-io-t-jobs-data-plane",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/beam-logo-full-color-name-bottom-1000.png",
+			"humanURL": "http://data.jobs.iot.amazonaws.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-io-t-jobs-data-plane/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Striim",
+			"x-api-slug": "striim",
+			"description": "Striim (pronounced stream) provides an end-to-end, real-time data integration + streaming analytics platform. Leverage change data capture (CDC) to access data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28377-striim.jpg",
+			"humanURL": "https://www.striim.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/striim/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "link.fish",
+			"x-api-slug": "link-fish",
+			"description": "Automatically get the information of the websites you are interested in and work with it together with others in real-time. Depending on the page you bookmark link.fish automatically extracts the data you actually care about. No matter if bedrooms for apartments, rating of movies or the cook time of your favorite recipe. Invite other people to your collection to work with them or make it public for everbody to see. All changes made will immediately be visible by everyone.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/link-fish-logo.png",
+			"humanURL": "http://link.fish",
+			"baseURL": "https://api.link.fish//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/link-fish/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lota Data",
+			"x-api-slug": "lota-data",
+			"description": "",
+			"image": "",
+			"humanURL": "http://lotadata.com",
+			"baseURL": "https://api2.lotadata.com//v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lota-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SalesLoft",
+			"x-api-slug": "salesloft",
+			"description": "SalesLoft, the leading sales engagement platform, transforms the way sellers engage with their customers by delivering a better selling experience. Our sales engagement platform helps teams set and execute on a cadence of phone, email, and social communications to convert more target accounts into customer accounts. The platform equips sales leaders with new capabilities to test, learn and adapt to ensure their sales reps execute on the most effective selling process for their account-based approach. SalesLoft delivers access to an extensive ecosystem of 3rd party integrations allowing teams to perform all their sales engagement from a single platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png",
+			"humanURL": "http://salesloft.com",
+			"baseURL": "https://api.salesloft.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/salesloft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fire Browse",
+			"x-api-slug": "fire-browse",
+			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
+			"humanURL": "http://firebrowse.org",
+			"baseURL": "https://firebrowse.org//api/v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fire-browse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flat",
+			"x-api-slug": "flat",
+			"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png",
+			"humanURL": "http://flat.io",
+			"baseURL": "https://api.flat.io//v2",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/flat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intertrust Technologies",
+			"x-api-slug": "intertrust-technologies",
+			"description": "A new reality is emerging as we adjust to the world where sensors on everything &mdash; from phones to cars to medical devices &mdash; track every movement, every blink of the eye, every heartbeat and location. Troves of data are being collected, governed, and analyzed in quantities hitherto unfathomable. These data can help us live longer and be better informed about our interests and dislikes. They can also keep us better connected and more entertained. Yet, significant technological and social issues exist around how these data should be properly handled. An outmoded regulatory environment and an increasingly lucrative market for digital profiles have formed a potent cocktail, rendering our information increasingly vulnerable to those who wish to exploit it. A boundless world awaits, but specific safeguards must be taken to protect personal and societal interests. With its years of research and development in trusted distributed computing, networked security, and social computing, Intertrust is up to this evermore important challenge: To build trust in a connected world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28604-www-intertrust-com.jpg",
+			"humanURL": "http://www.intertrust.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intertrust-technologies/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datree",
+			"x-api-slug": "datree",
+			"description": "Datree scans, catalogs and recommends code components in the context of your stack. Locate and sync your dev stack across your entire team with a single click, and get valuable insights that allow you to choose the right code components for your projects. Gain instant access to your company&rsquo;s entire development stack through GitHub or any other version control repository. We map your code components, development tools and internal know-how within your organization, giving you visibility into your tech stack. Connect directly into your Terminal, IDE, or as a Slack bot (coming soon) ensuring developers never have to leave the dev environment to benefit from our recommendation engine.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28708-www-datree-io.jpg",
+			"humanURL": "https://www.datree.io",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datree/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClicData",
+			"x-api-slug": "clicdata",
+			"description": "All in one cloud platform including a Business dashboards creator, extensive data manipulation tools & automatic data refresh & publication.Try it for free!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28722-www-clicdata-com.jpg",
+			"humanURL": "https://www.clicdata.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clicdata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataCultr",
+			"x-api-slug": "datacultr",
+			"description": "DataCultr is an AI driven platform for device manufacturers to manage the lifetime of the device by providing intuitive experiences to their users. We are built with a vision to make simple &amp; intuitive products for the next billion people who will come on internet allowing them to experience the power of internet &amp; connected devices in a manner that will help in increasing productivity and improving lives. The DataCultr team comprises of well-experienced members from the telecom &amp; mobile OEM space with great understanding of consumers in emerging markets and expertise in building scalable platforms.",
+			"image": "",
+			"humanURL": "https://www.datacultr.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datacultr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Neudata",
+			"x-api-slug": "neudata",
+			"description": "Alternative Data Intelligence for Asset Management | Alt data and use cases for quant & discretionary strategies #AltData #AlternativeData #Hedgefund",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28727-www-neudata-co.jpg",
+			"humanURL": "https://www.neudata.co",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/neudata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Push Technology",
+			"x-api-slug": "push-technology",
+			"description": "We make the Internet work for our mobile-obsessed, everything-connected world. Leading brands like 888 Holdings, DAB Bank, IBM, and William Hill leverage our technology to power applications critical to revenue growth, customer engagement, and business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28733-www-pushtechnology-com.jpg",
+			"humanURL": "http://www.pushtechnology.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/push-technology/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParetoNetwork",
+			"x-api-slug": "paretonetwork",
+			"description": "A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg",
+			"humanURL": "https://www.pareto.network",
+			"baseURL": "https:////",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/paretonetwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intermix",
+			"x-api-slug": "intermix",
+			"description": "The best companies in the world are driven by data. intermix.io is a single dashboard to monitor mission-critical data flows. Were building a new class of monitoring products that every data engineer at every company enjoys using every single day. Data has become the lifeblood of every organization. Our products help data teams be successful in their jobs and build the best data services possible.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intermix-logo.jpeg",
+			"humanURL": "https://www.intermix.io",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intermix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fulcrum",
+			"x-api-slug": "fulcrum",
+			"description": "Fulcrum is the industry-leading data collection platform that enables users to easily build custom apps for capturing information in the field. We make it simple for field service organizations to get the best data possible from their mobile teams. Replace your paper forms with a customizable digital version on Android and iOS devices. From construction and engineering, to utilities, transportation, and disaster relief, we&rsquo;re working to improve efficiency and enable better information and reporting from the field. We think the future of mobile workflow is in simplicity, ease-of-use, and frictionless use of inexpensive consumer technology to power business operations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28770-developer-fulcrumapp-com.jpg",
+			"humanURL": "https://www.fulcrumapp.com/",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fulcrum/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fractal",
+			"x-api-slug": "fractal",
+			"description": "Fractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON. Think of this as a view layer for your JSON/YAML/etc. When building an API it is common for people to just grab stuff from the database and pass it to json_encode(). This might be passable for &ldquo;trivial&rdquo; APIs but if they are in use by the public, or used by mobile applications then this will quickly lead to inconsistent output.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/fractal.png",
+			"humanURL": "http://fractal.thephpleague.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fractal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "InData Labs",
+			"x-api-slug": "indata-labs",
+			"description": "InData Labs provides data science consulting, custom AI-powered software development, and data science training. Focusing on predictive analytics, natural language processing, and computer vision, we help businesses innovate with AI, enrich customer in...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28778-indatalabs-com.jpg",
+			"humanURL": "https://indatalabs.com",
+			"baseURL": "https:///",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/indata-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kentico Cloud",
+			"x-api-slug": "kentico-cloud",
+			"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg",
+			"humanURL": "https://kenticocloud.com/",
+			"baseURL": "https://deliver.kenticocloud.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/kentico-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"x-api-slug": "ibm-financial-crimes-insight-for-insurance",
+			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png",
+			"humanURL": "https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN",
+			"baseURL": "https://fcihost.ibm.com:9443//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xibo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Data",
+	"include": [
+		{
+			"name": "Splunk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/splunk/apis.yaml"
+		},
+		{
+			"name": "Socrata",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/socrata/apis.yaml"
+		},
+		{
+			"name": "Firebase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/firebase/apis.yaml"
+		},
+		{
+			"name": "Factual",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/factual/apis.yaml"
+		},
+		{
+			"name": "World Bank Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/world-bank-data/apis.yaml"
+		},
+		{
+			"name": "Hootsuite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/hootsuite/apis.yaml"
+		},
+		{
+			"name": "BreweryDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/brewerydb/apis.yaml"
+		},
+		{
+			"name": "Datameer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datameer/apis.yaml"
+		},
+		{
+			"name": "DataSift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datasift/apis.yaml"
+		},
+		{
+			"name": "FullContact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fullcontact/apis.yaml"
+		},
+		{
+			"name": "The Guardian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/the-guardian/apis.yaml"
+		},
+		{
+			"name": "US Census Bureau",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/us-census-bureau/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Data8 Ltd",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/data8-ltd/apis.yaml"
+		},
+		{
+			"name": "StrikeIron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/strikeiron/apis.yaml"
+		},
+		{
+			"name": "Server Density",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/server-density/apis.yaml"
+		},
+		{
+			"name": "Factolex",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/factolex/apis.yaml"
+		},
+		{
+			"name": "GoodData",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/gooddata/apis.yaml"
+		},
+		{
+			"name": "Urban Mapping",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/urban-mapping/apis.yaml"
+		},
+		{
+			"name": "WeoGeo Status",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/weogeo-status/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Junar.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/junar-com/apis.yaml"
+		},
+		{
+			"name": "Plings",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plings/apis.yaml"
+		},
+		{
+			"name": "DataONE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataone/apis.yaml"
+		},
+		{
+			"name": "OpenCorporates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/apis.yaml"
+		},
+		{
+			"name": "Simperium",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/simperium/apis.yaml"
+		},
+		{
+			"name": "IBM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm/apis.yaml"
+		},
+		{
+			"name": "Clever",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clever/apis.yaml"
+		},
+		{
+			"name": "Bugswarm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bugswarm/apis.yaml"
+		},
+		{
+			"name": "DataKC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datakc/apis.yaml"
+		},
+		{
+			"name": "123FormBuilder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/123formbuilder/apis.yaml"
+		},
+		{
+			"name": "Import.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/import-io/apis.yaml"
+		},
+		{
+			"name": "Hatebase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/hatebase/apis.yaml"
+		},
+		{
+			"name": "Ragic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ragic/apis.yaml"
+		},
+		{
+			"name": "Dronestream",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dronestream/apis.yaml"
+		},
+		{
+			"name": "Primal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/primal/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "Aculocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aculocity/apis.yaml"
+		},
+		{
+			"name": "Acxiom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/acxiom/apis.yaml"
+		},
+		{
+			"name": "Altos Data Geeks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/altos-data-geeks/apis.yaml"
+		},
+		{
+			"name": "Energy Information Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/energy-information-administration/apis.yaml"
+		},
+		{
+			"name": "Bureau of Labor Statistics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bureau-of-labor-statistics/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "DataHero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datahero/apis.yaml"
+		},
+		{
+			"name": "Development Seed",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/development-seed/apis.yaml"
+		},
+		{
+			"name": "DataMade",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datamade/apis.yaml"
+		},
+		{
+			"name": "CKAN",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ckan/apis.yaml"
+		},
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Quandl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/quandl/apis.yaml"
+		},
+		{
+			"name": "Dat ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dat-/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "DataValidation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datavalidation/apis.yaml"
+		},
+		{
+			"name": "Blizzard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/blizzard/apis.yaml"
+		},
+		{
+			"name": "Apache Avro",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apache-avro/apis.yaml"
+		},
+		{
+			"name": "Apache Flink",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apache-flink/apis.yaml"
+		},
+		{
+			"name": "Open Eligibility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/open-eligibility/apis.yaml"
+		},
+		{
+			"name": "Scribe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/scribe/apis.yaml"
+		},
+		{
+			"name": "Open Data Commons",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/open-data-commons/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "Apollo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/apollo/apis.yaml"
+		},
+		{
+			"name": "BigCommerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bigcommerce/apis.yaml"
+		},
+		{
+			"name": "Capital One DevExchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/capital-one-devexchange/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "AWS CloudWatch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cloudwatch/apis.yaml"
+		},
+		{
+			"name": "AWS Lightsale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-lightsale/apis.yaml"
+		},
+		{
+			"name": "AWS Batch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-batch/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS Snowball",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-snowball/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-code-pipeline/apis.yaml"
+		},
+		{
+			"name": "AWS Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-elastic-mapreduce/apis.yaml"
+		},
+		{
+			"name": "AWS CloudSearch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cloudsearch/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-kinesis-analytics/apis.yaml"
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/apis.yaml"
+		},
+		{
+			"name": "AWS Machine Learning",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-machine-learning/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-device-farm/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-analytics/apis.yaml"
+		},
+		{
+			"name": "Google Biquery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-biquery/apis.yaml"
+		},
+		{
+			"name": "Google Civic Information",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-civic-information/apis.yaml"
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-content-api-for-shopping/apis.yaml"
+		},
+		{
+			"name": "Google Dataflow",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-dataflow/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-dataproc/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-cloud-datastore/apis.yaml"
+		},
+		{
+			"name": "Google Fusion Tables",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-fusion-tables/apis.yaml"
+		},
+		{
+			"name": "Google Search Console",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-search-console/apis.yaml"
+		},
+		{
+			"name": "Google Sheets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/google-sheets/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-analytics/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-data-lake-store/apis.yaml"
+		},
+		{
+			"name": "Azure HDInsight",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/azure-hdinsight/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Lisk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/apis.yaml"
+		},
+		{
+			"name": "Intrinio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/apis.yaml"
+		},
+		{
+			"name": "QUODD Financial",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/quodd-financial/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "StreamSets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/streamsets/apis.yaml"
+		},
+		{
+			"name": "Landoop",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/landoop/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Clarity Insights",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clarity-insights/apis.yaml"
+		},
+		{
+			"name": "Crux",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/crux/apis.yaml"
+		},
+		{
+			"name": "Dataiku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataiku/apis.yaml"
+		},
+		{
+			"name": "Saagie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/saagie/apis.yaml"
+		},
+		{
+			"name": "RapidMiner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/rapidminer/apis.yaml"
+		},
+		{
+			"name": "Indico",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/indico/apis.yaml"
+		},
+		{
+			"name": "Dataminr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dataminr/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "AWS Price List Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-price-list-service/apis.yaml"
+		},
+		{
+			"name": "AWS Io T Jobs Data Plane",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-io-t-jobs-data-plane/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Striim",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/striim/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "link.fish",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/link-fish/apis.yaml"
+		},
+		{
+			"name": "Lota Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lota-data/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "SalesLoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/salesloft/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "Fire Browse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fire-browse/apis.yaml"
+		},
+		{
+			"name": "Flat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/flat/apis.yaml"
+		},
+		{
+			"name": "Intertrust Technologies",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intertrust-technologies/apis.yaml"
+		},
+		{
+			"name": "Datree",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datree/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "ClicData",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/clicdata/apis.yaml"
+		},
+		{
+			"name": "DataCultr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/datacultr/apis.yaml"
+		},
+		{
+			"name": "Neudata",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/neudata/apis.yaml"
+		},
+		{
+			"name": "Push Technology",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/push-technology/apis.yaml"
+		},
+		{
+			"name": "ParetoNetwork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/paretonetwork/apis.yaml"
+		},
+		{
+			"name": "Intermix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intermix/apis.yaml"
+		},
+		{
+			"name": "Fulcrum",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fulcrum/apis.yaml"
+		},
+		{
+			"name": "Fractal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/fractal/apis.yaml"
+		},
+		{
+			"name": "InData Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/indata-labs/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "Kentico Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/kentico-cloud/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/xibo/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

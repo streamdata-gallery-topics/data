@@ -16,7 +16,57 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Key Management Service API - Generate Data Key
+  x-api-slug: actiongeneratedatakey-get
+  description: |-
+    Returns a data encryption key that you can use in your application to encrypt
+          data locally.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/actiongeneratedatakey-get-openapi.md
+- name: AWS Key Management Service API - Generate Data Key Without Plaintext
+  x-api-slug: actiongeneratedatakeywithoutplaintext-get
+  description: Returns a data encryption key encrypted under a customer master key
+    (CMK).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/actiongeneratedatakeywithoutplaintext-get-openapi.md
+- name: AWS Key Management Service API - Generate Data Key
+  x-api-slug: actiongeneratedatakey-get
+  description: |-
+    Returns a data encryption key that you can use in your application to encrypt
+          data locally.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/actiongeneratedatakey-get-openapi.md
+- name: AWS Key Management Service API - Generate Data Key Without Plaintext
+  x-api-slug: actiongeneratedatakeywithoutplaintext-get
+  description: Returns a data encryption key encrypted under a customer master key
+    (CMK).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-key-management-service/actiongeneratedatakeywithoutplaintext-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.internet.of.things.api.gallery.streamdata.io

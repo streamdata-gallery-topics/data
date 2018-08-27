@@ -11,7 +11,27 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Get API Personaldata
+  x-api-slug: apipersonaldata-get
+  description: Get api personaldata.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apipersonaldata-get-openapi.md
+- name: Wallet_Api - Get API Personaldata
+  x-api-slug: apipersonaldata-get
+  description: Get api personaldata.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lykke/apipersonaldata-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io

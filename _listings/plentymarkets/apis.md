@@ -16,6 +16,16 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
+- name: plentymarkets REST-API - Find address data by address id
+  x-api-slug: restaccountsaddressesaddressidrelated-data-get
+  description: Find address data by address id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restaccountsaddressesaddressidrelated-data-get-openapi.md
 - name: plentymarkets REST-API - List all group function related data
   x-api-slug: restaccountscontactsgroup-functions-get
   description: Lists all data that is related to the contact group function contents.
@@ -28,6 +38,27 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restaccountscontactsgroup-functions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restaccountscontactsgroup-functions-get-openapi.md
+- name: plentymarkets REST-API - Return all contact related data
+  x-api-slug: restaccountscontactscontactidrelated-data-get
+  description: Returns all contact related data.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restaccountscontactscontactidrelated-data-get-openapi.md
+- name: plentymarkets REST-API - Update sales price data
+  x-api-slug: restitemsidvariationsvariationidvariation-sales-pricespriceid-put
+  description: Updates sales price data linked to a variation. The ID of the sales
+    price and the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-sales-pricespriceid-put-openapi.md
 - name: plentymarkets REST-API - Update warehouse data of a variation
   x-api-slug: restitemsidvariationsvariationidvariation-warehouseswarehouseid-put
   description: Updates the data of a warehouse linked to a variation. The ID of the
@@ -54,6 +85,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restordersorderidshippingshipping-informationadditional-data-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restordersorderidshippingshipping-informationadditional-data-put-openapi.md
+- name: plentymarkets REST-API - Get sales price data for a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-sales-pricespriceid-get
+  description: Gets sales price data linked to a variation. The ID of the sales price
+    and the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-sales-pricespriceid-get-openapi.md
 - name: plentymarkets REST-API - Get supplier data for a variation
   x-api-slug: restitemsidvariationsvariationidvariation-suppliersvariationsupplierid-get
   description: Gets the data for a supplier linked to a variation. The ID of the variation
@@ -92,6 +134,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-warehouseswarehouseid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-warehouseswarehouseid-get-openapi.md
+- name: plentymarkets REST-API - Get sales price data for a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-sales-pricespriceid-get
+  description: Gets sales price data linked to a variation. The ID of the sales price
+    and the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-sales-pricespriceid-get-openapi.md
 - name: plentymarkets REST-API - Get supplier data for a variation
   x-api-slug: restitemsidvariationsvariationidvariation-suppliersvariationsupplierid-get
   description: Gets the data for a supplier linked to a variation. The ID of the variation
@@ -168,6 +221,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-suppliersvariationsupplierid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-suppliersvariationsupplierid-get-openapi.md
+- name: plentymarkets REST-API - Get sales price data for a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-sales-pricespriceid-get
+  description: Gets sales price data linked to a variation. The ID of the sales price
+    and the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-sales-pricespriceid-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

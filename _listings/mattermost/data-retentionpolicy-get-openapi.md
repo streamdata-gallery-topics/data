@@ -20,55 +20,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /files/{file_id}/info:
-    get:
-      summary: Get metadata for a file
-      description: |-
-        Gets a file's info.
-        ##### Permissions
-        Must have `read_channel` permission or be uploader of the file.
-      operationId: gets-a-files-info-permissionsmust-have-read-channel-permission-or-be-uploader-of-the-file
-      x-api-path-slug: filesfile-idinfo-get
-      parameters:
-      - in: path
-        name: file_id
-        description: The ID of the file info to get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Metadataa
-      - File
-  /database/recycle:
-    post:
-      summary: Recycle database connections
-      description: |-
-        Recycle database connections by closing and reconnecting all connections to master and read replica databases.
-        ##### Permissions
-        Must have `manage_system` permission.
-      operationId: recycle-database-connections-by-closing-and-reconnecting-all-connections-to-master-and-read-replica-
-      x-api-path-slug: databaserecycle-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - Recycle
-      - Database
-      - Connections
-  /saml/metadata:
-    get:
-      summary: Get metadata
-      description: |-
-        Get SAML metadata from the server. SAML must be configured properly.
-        ##### Permissions
-        No permission required.
-      operationId: get-saml-metadata-from-the-server-saml-must-be-configured-properly-permissionsno-permission-required
-      x-api-path-slug: samlmetadata-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Metadata
   /data_retention/policy:
     get:
       summary: Get the data retention policy details.

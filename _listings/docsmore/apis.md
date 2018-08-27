@@ -48,6 +48,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/docsmore/apiclientdocsgetrawdataauthtokendocumentkey-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/docsmore/apiclientdocsgetrawdataauthtokendocumentkey-get-openapi.md
+- name: Docsmore API 2.1 - Returns raw data response as json FOR SINGLE CLIENT DOC
+  x-api-slug: rawdata-post
+  description: This API call gets you underlying raw data of the document. All you
+    need to do is supply Auth token and Document Key as part of the call
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
+  humanURL: http://api.docsmore.com
+  baseURL: https://api.docsmore.com//
+  tags: SaaS, Technology, Documents, Forms
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/docsmore/rawdata-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://digitalocean.api.gallery.streamdata.io

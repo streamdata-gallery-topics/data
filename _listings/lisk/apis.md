@@ -12,6 +12,59 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Lisk API Documentation - Requests transactions data
+  x-api-slug: transactions-get
+  description: Search for a specified transaction in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/transactions-get-openapi.md
+- name: Lisk API Documentation - Requests blocks data
+  x-api-slug: blocks-get
+  description: Search for a specified block in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/blocks-get-openapi.md
+- name: Lisk API Documentation - Requests next forgers data
+  x-api-slug: delegatesforgers-get
+  description: Returns a list of the next forgers in this delegate round.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/delegatesforgers-get-openapi.md
+- name: Lisk API Documentation - Requests delegates data
+  x-api-slug: delegates-get
+  description: Search for a specified delegate in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/delegates-get-openapi.md
+- name: Lisk API Documentation - Requests unprocessed transactions data
+  x-api-slug: nodetransactionsstate-get
+  description: |-
+    By specifying the state of the transactions, you get a list of unprocessed transactions matching this state.
+    Search for specific transactions by providing the appropriate parameters.
+    If you post a batch of transactions, they will appear in the unprocessed list after a small delay, depending on server load.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/nodetransactionsstate-get-openapi.md
 - name: Lisk API Documentation - Requests status data
   x-api-slug: nodestatus-get
   description: Returns all current status data of the node, e.g. height and broadhash.
@@ -99,6 +152,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/accounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/accounts-get-openapi.md
+- name: Lisk API Documentation - Requests voters data for a delegate
+  x-api-slug: voters-get
+  description: |-
+    *Attention: At least **one of the filter parameters must be provided.***
+    Returns all votes received by a delegate.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg
+  humanURL: https://lisk.io
+  baseURL: https:////api
+  tags: Technology, SaaS, Enterprise, Blockchain
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/lisk/voters-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://linkedin.api.gallery.streamdata.io

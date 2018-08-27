@@ -20,7 +20,55 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Data Pipeline API - Poll For Task
+  x-api-slug: actionpollfortask-get
+  description: Task runners call PollForTask to receive a task to perform from AWS
+    Data Pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/actionpollfortask-get-openapi.md
+- name: AWS Data Pipeline API - Set Task Status
+  x-api-slug: actionsettaskstatus-get
+  description: Task runners call SetTaskStatus to notify AWS Data Pipeline that a
+    task is completed and provide information about the final status.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/actionsettaskstatus-get-openapi.md
+- name: AWS Data Pipeline API - Poll For Task
+  x-api-slug: actionpollfortask-get
+  description: Task runners call PollForTask to receive a task to perform from AWS
+    Data Pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/actionpollfortask-get-openapi.md
+- name: AWS Data Pipeline API - Set Task Status
+  x-api-slug: actionsettaskstatus-get
+  description: Task runners call SetTaskStatus to notify AWS Data Pipeline that a
+    task is completed and provide information about the final status.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/aws-data-pipeline/actionsettaskstatus-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.config.api.gallery.streamdata.io

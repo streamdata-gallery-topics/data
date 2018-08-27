@@ -16,7 +16,17 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bigcommerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BigCommerce API V3 - Retrieve a single product image's data
+  x-api-slug: storehashv3catalogproductsidimagesid-get
+  description: GET request for a specific product image by ID
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/bigcommerce/storehashv3catalogproductsidimagesid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://betterdoctor.api.gallery.streamdata.io

@@ -13,7 +13,51 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Urls Datamodel
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-get
+  description: Get analyses username project slug analysis slug urls datamodel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlsdatamodel-get-openapi.md
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Urls Datamodel
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters
+  description: Parameters analyses username project slug analysis slug urls datamodel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters-openapi.md
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Urls Datamodel
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-get
+  description: Get analyses username project slug analysis slug urls datamodel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlsdatamodel-get-openapi.md
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Urls Datamodel
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters
+  description: Parameters analyses username project slug analysis slug urls datamodel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters-openapi.md
 x-common:
 - type: x-website
   url: http://www.botify.com

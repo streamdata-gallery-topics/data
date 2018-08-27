@@ -317,6 +317,62 @@ paths:
       - Metrics
       - Data.
       - Format
+  /servers/{server_id}/metrics/data.{format}:
+    get:
+      summary: Get Servers Server  Metrics Data. Format
+      description: "This API endpoint returns a list of values for each of the requested
+        metrics. The list of available metrics\ncan be returned using the Metric Name
+        API endpoint.\n\nMetric data can be filtered by a number of parameters, including
+        multiple names and values, and by time range.\nMetric names and values will
+        be matched intelligently in the background.\n\nYou can also retrieve a summarized
+        data point across the entire time range selected by using the summarize\nparameter.\n\nSee
+        our documentation for a discussion on \noutput pagination,  time range \nrelated
+        considerations, and for examples of requesting and using metric values."
+      operationId: getServersServerMetricsData.Format
+      x-api-path-slug: serversserver-idmetricsdata-format-get
+      parameters:
+      - in: query
+        name: from
+        description: Retrieve metrics after this time
+        type: time
+      - in: query
+        name: names
+        description: Retrieve specific metrics by name
+        type: array
+      - in: query
+        name: period
+        description: Period of timeslices in seconds
+        type: integer
+      - in: query
+        name: raw
+        description: Return unformatted raw values
+        type: boolean
+      - in: path
+        name: server_id
+        description: Server ID
+        type: integer
+      - in: query
+        name: summarize
+        description: Summarize the data
+        type: boolean
+      - in: query
+        name: to
+        description: Retrieve metrics before this time
+        type: time
+      - in: query
+        name: values
+        description: Retrieve specific metric values
+        type: array
+      responses:
+        200:
+          description: OK
+      tags:
+      - Servers
+      - Server
+      - ""
+      - Metrics
+      - Data.
+      - Format
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

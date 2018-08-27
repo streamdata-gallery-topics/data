@@ -11,7 +11,31 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OpenCorporates - Companies  Jurisdiction Code  Company Number Data
+  x-api-slug: companiesjurisdiction-codecompany-numberdata-get
+  description: nThis returns the data held for the given company
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/companiesjurisdiction-codecompany-numberdata-get-openapi.md
+- name: OpenCorporates - Data  ID
+  x-api-slug: dataid-get
+  description: nThis returns information on a given datum
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/opencorporates/dataid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencage.api.gallery.streamdata.io

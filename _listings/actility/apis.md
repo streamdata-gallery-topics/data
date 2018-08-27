@@ -11,7 +11,19 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/actility/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ThingPark DX Dataflow API - Uplink data reception
+  x-api-slug: uplinkmessages-post
+  description: Endpoint to be used by the LRC to push uplink data in order to use
+    ThingPark X dataflows.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//dataflow/v021/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/actility/uplinkmessages-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.actility.com/blog/feed/

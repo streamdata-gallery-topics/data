@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: EPA Envirofacts
 x-complete: 1
@@ -18,6 +17,133 @@ produces:
 consumes:
 - application/json
 paths:
+  /echo_rest_services.get_download:
+    get:
+      summary: Combined ECHO Download Data Service
+      description: Based on the QID obtained from a get_facilities or get_facility_info
+        query, return a comma sepated vaule (CSV) file of the facilities found.
+      operationId: based-on-the-qid-obtained-from-a-get-facilities-or-get-facility-info-query-return-a-comma-sepated-va
+      x-api-path-slug: echo-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      - in: query
+        name: qcolumns
+        description: Used to cutomize service output
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Combined
+      - ECHO
+      - Download
+      - Data
+      - Service
+  /air_rest_services.get_download:
+    get:
+      summary: Clean Air Act Download Data Service
+      description: Based on the QID obtained from a get_facilities or get_facility_info
+        query, return a comma sepated vaule (CSV) file of the facilities found.
+      operationId: based-on-the-qid-obtained-from-a-get-facilities-or-get-facility-info-query-return-a-comma-sepated-va
+      x-api-path-slug: air-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Clean
+      - Air
+      - Act
+      - Download
+      - Data
+      - Service
+  /cwa_rest_services.get_geojson:
+    get:
+      summary: Clean Water Act (CWA) Download Data Service
+      description: Based on the QID obtained from a get_facilities or get_facility_info
+        query, return a comma sepated vaule (CSV) file of the facilities found.
+      operationId: based-on-the-qid-obtained-from-a-get-facilities-or-get-facility-info-query-return-a-comma-sepated-va
+      x-api-path-slug: cwa-rest-services-get-geojson-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      - in: query
+        name: qcolumns
+        description: Used to cutomize service output
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Clean
+      - Water
+      - Act
+      - (CWA)
+      - Download
+      - Data
+      - Service
+  /case_rest_services.get_download:
+    get:
+      summary: Enforcement Case Download Data Service
+      description: Based on the QID obtained from a get_cases query, return a comma
+        sepated vaule (CSV) file of the cases found.
+      operationId: based-on-the-qid-obtained-from-a-get-cases-query-return-a-comma-sepated-vaule-csv-file-of-the-cases-
+      x-api-path-slug: case-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Enforcement
+      - Case
+      - Download
+      - Data
+      - Service
+  /rcra_rest_services.get_download:
+    get:
+      summary: Resource Conservation and Recovery Act (RCRA) Download Data Service
+      description: Based on the QID obtained from a get_facilities or get_facility_info
+        query, return a comma sepated vaule (CSV) file of the facilities found.
+      operationId: based-on-the-qid-obtained-from-a-get-facilities-or-get-facility-info-query-return-a-comma-sepated-va
+      x-api-path-slug: rcra-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Resource
+      - Conservation
+      - Recovery
+      - Act
+      - (RCRA)
+      - Download
+      - Data
+      - Service
   /sdw_rest_services.get_download:
     get:
       summary: Safe Drinking Water Act (SDWA) Download Data Service
@@ -44,4 +170,3 @@ paths:
       - Download
       - Data
       - Service
----

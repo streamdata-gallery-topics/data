@@ -13,7 +13,19 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/flat/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Flat - Get a score revision data
+  x-api-slug: scoresscorerevisionsrevisionformat-get
+  description: |-
+    Retrieve the file corresponding to a score revision (the following formats are available: Flat JSON/Adagio JSON `json`, MusicXML
+    `mxl`/`xml`, MP3 `mp3`, WAV `wav`, MIDI `midi`, or a tumbnail of the first page `thumbnail.png`).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/flat/scoresscorerevisionsrevisionformat-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://fitbit.api.gallery.streamdata.io

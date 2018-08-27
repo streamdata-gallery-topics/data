@@ -37,6 +37,23 @@ paths:
       - Slug
       - Urls
       - Datamodel
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Datamodel
+      description: Parameters analyses username project slug analysis slug urls datamodel.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsDatamodel
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Datamodel
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

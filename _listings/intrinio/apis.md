@@ -13,7 +13,21 @@ created: "2018-08-27"
 modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Intrinio - Data Point
+  x-api-slug: data-point-get
+  description: Returns the most recent median data point for an Economic index for
+    a selected tag.  The complete list of Economic Indices can be found here.  The
+    complete list of Economic tags available through this function are available here.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
+  baseURL: https://api.intrinio.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
+    Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/data-point-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.intrinio.com
