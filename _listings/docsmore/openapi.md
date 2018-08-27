@@ -43,4 +43,34 @@ paths:
       - Data
       - Given
       - Document
+  /rawdata:
+    post:
+      summary: Returns raw data response as json FOR SINGLE CLIENT DOC
+      description: This API call gets you underlying raw data of the document. All
+        you need to do is supply Auth token and Document Key as part of the call
+      operationId: RawdataPost
+      x-api-path-slug: rawdata-post
+      parameters:
+      - in: header
+        name: Accept
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Returns
+      - Raw
+      - Data
+      - Response
+      - As
+      - Json
+      - FOR
+      - SINGLE
+      - CLIENT
+      - DOC
 ---

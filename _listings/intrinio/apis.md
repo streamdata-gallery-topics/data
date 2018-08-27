@@ -5,16 +5,18 @@ description: Intelligent Data, On Demand. The financial data platform for develo
   investors, students, and educators, with over 200 feeds including real-time, intraday,
   EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
   and Goo...
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
 x-kinRank: "8"
 x-alexaRank: "303229"
 tags: Data
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-website
+  url: http://www.intrinio.com
 - type: x-api-gallery
   url: http://international.trade.administration.api.gallery.streamdata.io
 - type: x-api-stack

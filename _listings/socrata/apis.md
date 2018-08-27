@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/24-socrata
 x-kinRank: "9"
 x-alexaRank: "145267"
 tags: Data
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/socrata/apis.md
 specificationVersion: "0.14"
 apis: []

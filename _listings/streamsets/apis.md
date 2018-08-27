@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28193-stre
 x-kinRank: "7"
 x-alexaRank: "225825"
 tags: Data
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/data/master/_listings/streamsets/apis.md
 specificationVersion: "0.14"
 apis: []

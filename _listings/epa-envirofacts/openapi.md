@@ -17,4 +17,31 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /sdw_rest_services.get_download:
+    get:
+      summary: Safe Drinking Water Act (SDWA) Download Data Service
+      description: Based on the QID obtained from a get_systems query, return a comma
+        sepated vaule (CSV) file of the water systems found.
+      operationId: based-on-the-qid-obtained-from-a-get-systems-query-return-a-comma-sepated-vaule-csv-file-of-the-wate
+      x-api-path-slug: sdw-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Safe
+      - Drinking
+      - Water
+      - Act
+      - (SDWA)
+      - Download
+      - Data
+      - Service
 ---
